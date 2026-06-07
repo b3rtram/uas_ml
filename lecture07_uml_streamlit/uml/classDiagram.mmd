@@ -1,0 +1,36 @@
+%% Class Diagram — complete model of the Churn App.
+classDiagram
+    class BaseModel {
+        <<abstract>>
+        +predict_proba(X) float
+    }
+
+    class ChurnModel {
+        -prep: Preprocessor
+        -clf: LogisticRegression
+        +train(X, y) void
+        +predict_proba(X) float
+        +save(path) void
+        +load(path)$ ChurnModel
+    }
+
+    class Preprocessor {
+        -scaler: StandardScaler
+        +fit(X) void
+        +transform(X) ndarray
+    }
+
+    class DataLoader {
+        -path: str
+        +load() DataFrame
+        +split(df) tuple
+    }
+
+    class DashboardView {
+        +render() void
+    }
+
+    BaseModel <|-- ChurnModel
+    ChurnModel *-- Preprocessor : owns
+    ChurnModel ..> DataLoader : uses
+    DashboardView --> ChurnModel : reads

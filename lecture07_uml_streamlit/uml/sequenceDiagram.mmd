@@ -1,0 +1,23 @@
+%% Sequence Diagram - eine Prediction von Klick bis Anzeige.
+sequenceDiagram
+    actor User
+    participant UI as Dashboard
+    participant Utils as model_utils
+    participant Cache as st.cache_resource
+    participant Model as ChurnModel
+
+    User->>UI: gibt Kundendaten ein
+    UI->>Utils: load_model()
+    Utils->>Cache: lookup(model)
+    alt erster Aufruf (Cache Miss)
+        Cache-->>Utils: nicht gefunden
+        Utils->>Model: load(model.pkl)
+        Model-->>Utils: model
+        Utils->>Cache: store(model)
+    else weitere Aufrufe (Cache Hit)
+        Cache-->>Utils: model (cached)
+    end
+    Utils-->>UI: model
+    UI->>Model: predict_proba(X)
+    Model-->>UI: 0.83
+    UI-->>User: zeigt Churn-Risiko 83 Prozent

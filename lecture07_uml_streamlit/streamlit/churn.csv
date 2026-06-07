@@ -1,0 +1,2001 @@
+tenure,MonthlyCharges,Contract,InternetService,Churn
+6,26.21,Two year,DSL,0
+56,65.83,One year,Fiber optic,0
+47,32.9,Month-to-month,Fiber optic,0
+32,35.23,One year,DSL,0
+31,83.23,Month-to-month,DSL,0
+62,59.29,One year,Fiber optic,0
+6,112.19,One year,Fiber optic,0
+50,51.92,Month-to-month,Fiber optic,1
+14,92.62,Month-to-month,Fiber optic,1
+6,66.11,One year,Fiber optic,0
+38,86.0,Month-to-month,DSL,1
+71,79.97,Two year,Fiber optic,0
+53,67.28,One year,DSL,1
+55,115.01,One year,Fiber optic,0
+52,54.27,Month-to-month,DSL,0
+57,37.72,One year,DSL,0
+37,87.81,Two year,Fiber optic,0
+9,104.6,Month-to-month,Fiber optic,1
+61,24.03,Month-to-month,Fiber optic,1
+32,64.96,Month-to-month,Fiber optic,0
+36,109.25,Month-to-month,No,0
+27,94.96,One year,No,0
+13,119.18,Month-to-month,No,1
+67,73.14,One year,Fiber optic,0
+57,86.0,Month-to-month,Fiber optic,1
+47,50.25,Month-to-month,Fiber optic,0
+29,114.75,Month-to-month,Fiber optic,1
+60,56.63,Two year,DSL,0
+39,93.85,One year,Fiber optic,0
+32,60.31,Month-to-month,DSL,0
+32,76.18,One year,DSL,1
+16,91.98,Month-to-month,No,1
+6,70.89,Month-to-month,DSL,1
+40,110.71,Month-to-month,Fiber optic,1
+64,61.93,Two year,Fiber optic,0
+4,84.71,One year,DSL,0
+62,54.24,One year,No,0
+60,60.82,Month-to-month,DSL,0
+20,64.01,Month-to-month,No,0
+46,32.58,One year,Fiber optic,0
+12,29.17,Month-to-month,DSL,0
+55,86.75,Two year,DSL,0
+51,85.55,One year,DSL,1
+25,86.29,Month-to-month,Fiber optic,1
+4,21.98,One year,DSL,0
+70,52.65,Two year,No,0
+32,39.78,Month-to-month,DSL,0
+65,97.82,One year,No,0
+49,106.06,Two year,DSL,0
+56,44.67,Month-to-month,No,0
+55,86.78,Two year,DSL,0
+14,32.94,Month-to-month,Fiber optic,1
+26,47.52,One year,Fiber optic,0
+34,33.87,One year,DSL,0
+36,48.35,One year,No,0
+3,87.47,Month-to-month,DSL,1
+39,111.03,One year,Fiber optic,0
+11,40.25,Month-to-month,Fiber optic,1
+54,74.21,Month-to-month,Fiber optic,0
+49,90.14,Month-to-month,DSL,0
+67,115.29,One year,DSL,0
+54,81.01,Month-to-month,DSL,1
+26,45.51,Month-to-month,DSL,1
+70,82.55,Two year,DSL,0
+29,52.05,Month-to-month,No,0
+23,117.61,Month-to-month,Fiber optic,0
+66,59.97,Month-to-month,Fiber optic,0
+27,88.54,Month-to-month,Fiber optic,0
+5,22.32,One year,DSL,0
+34,60.01,Month-to-month,Fiber optic,0
+58,107.51,Month-to-month,DSL,0
+13,81.02,Two year,DSL,0
+33,64.39,Two year,Fiber optic,0
+9,113.59,One year,Fiber optic,1
+50,105.4,Two year,No,0
+34,52.22,Two year,DSL,0
+24,74.45,Month-to-month,Fiber optic,1
+16,68.98,One year,DSL,0
+41,83.22,One year,DSL,1
+48,53.41,Month-to-month,Fiber optic,0
+68,44.42,Month-to-month,DSL,0
+31,111.27,Month-to-month,Fiber optic,0
+11,112.39,One year,Fiber optic,0
+60,104.33,One year,DSL,0
+45,117.82,One year,No,0
+51,94.5,Month-to-month,Fiber optic,0
+7,96.47,Month-to-month,Fiber optic,1
+22,96.26,Month-to-month,Fiber optic,1
+56,68.06,Month-to-month,No,0
+60,65.65,Two year,DSL,0
+31,44.02,Two year,Fiber optic,0
+58,84.48,Two year,Fiber optic,0
+61,48.93,Two year,DSL,0
+28,45.78,Two year,Fiber optic,0
+65,78.6,Month-to-month,No,0
+21,61.0,Month-to-month,Fiber optic,1
+17,41.89,Month-to-month,Fiber optic,1
+49,101.61,Month-to-month,Fiber optic,1
+46,106.06,Month-to-month,No,1
+10,36.77,Month-to-month,No,1
+60,20.75,Two year,Fiber optic,0
+14,53.61,Month-to-month,DSL,1
+58,99.75,Two year,DSL,0
+0,103.92,One year,Fiber optic,1
+58,33.83,One year,No,0
+57,97.43,One year,Fiber optic,1
+56,31.57,Month-to-month,DSL,0
+48,59.01,One year,DSL,0
+34,119.86,Month-to-month,Fiber optic,1
+51,39.26,Two year,No,0
+20,35.4,Month-to-month,DSL,0
+56,62.28,Month-to-month,Fiber optic,0
+40,81.97,One year,Fiber optic,0
+33,113.29,One year,No,0
+36,118.08,Month-to-month,DSL,0
+41,26.96,One year,No,0
+2,33.8,Month-to-month,Fiber optic,1
+10,99.07,One year,Fiber optic,0
+17,47.06,Month-to-month,DSL,1
+8,108.48,Month-to-month,Fiber optic,1
+32,86.35,Month-to-month,Fiber optic,1
+48,31.18,Month-to-month,DSL,1
+47,103.25,Month-to-month,Fiber optic,0
+34,37.64,Month-to-month,Fiber optic,0
+62,62.35,Month-to-month,Fiber optic,0
+41,75.22,Month-to-month,DSL,0
+5,70.08,Month-to-month,Fiber optic,1
+55,88.62,Month-to-month,DSL,0
+41,85.27,One year,No,0
+46,119.2,Two year,No,0
+41,119.94,Month-to-month,DSL,1
+40,71.65,Two year,DSL,0
+6,29.52,Month-to-month,DSL,1
+40,92.78,Month-to-month,Fiber optic,1
+58,117.67,One year,No,0
+22,51.83,One year,Fiber optic,0
+44,66.12,Two year,DSL,0
+2,62.48,Month-to-month,DSL,1
+25,25.14,One year,DSL,0
+31,87.23,Month-to-month,No,1
+71,55.33,Month-to-month,Fiber optic,0
+15,98.75,Month-to-month,Fiber optic,1
+20,103.21,Two year,DSL,0
+29,102.12,Month-to-month,No,1
+72,61.67,Two year,DSL,0
+62,52.15,One year,No,0
+2,94.88,One year,No,1
+17,100.14,One year,Fiber optic,0
+59,69.13,Two year,No,0
+4,109.3,Month-to-month,DSL,1
+62,34.39,Month-to-month,Fiber optic,0
+20,107.91,One year,DSL,0
+66,29.61,Month-to-month,Fiber optic,0
+21,35.35,Month-to-month,DSL,0
+31,73.38,Month-to-month,DSL,0
+48,26.75,Month-to-month,DSL,0
+9,25.28,Month-to-month,DSL,0
+40,20.05,Month-to-month,Fiber optic,0
+36,63.63,Two year,Fiber optic,0
+57,97.46,Month-to-month,DSL,1
+72,23.48,Two year,No,0
+48,85.23,Two year,No,0
+29,102.31,Month-to-month,DSL,0
+29,36.8,One year,Fiber optic,0
+30,34.69,One year,Fiber optic,0
+59,106.08,One year,Fiber optic,0
+23,102.31,Month-to-month,Fiber optic,1
+12,73.89,Month-to-month,Fiber optic,1
+24,101.92,Month-to-month,DSL,1
+1,29.28,One year,DSL,1
+7,59.45,Two year,Fiber optic,0
+6,93.78,One year,Fiber optic,1
+56,45.75,One year,No,0
+52,95.23,Two year,DSL,0
+50,70.42,One year,DSL,0
+33,95.03,Month-to-month,DSL,1
+52,66.47,Two year,DSL,0
+11,56.79,Month-to-month,DSL,0
+65,41.92,Month-to-month,Fiber optic,0
+36,40.84,Month-to-month,Fiber optic,1
+68,95.15,Two year,Fiber optic,0
+11,31.89,Month-to-month,Fiber optic,1
+36,28.6,Month-to-month,DSL,0
+50,37.63,Month-to-month,Fiber optic,0
+36,37.53,Month-to-month,DSL,1
+32,102.31,Month-to-month,No,0
+12,59.85,One year,DSL,0
+27,119.04,Two year,Fiber optic,1
+17,33.72,Month-to-month,No,1
+22,85.35,Month-to-month,Fiber optic,1
+49,64.87,Month-to-month,Fiber optic,0
+46,59.29,Month-to-month,Fiber optic,1
+44,107.51,One year,DSL,0
+26,117.56,One year,Fiber optic,1
+70,107.29,One year,No,0
+6,39.23,Month-to-month,No,0
+25,42.08,One year,Fiber optic,1
+8,85.61,Month-to-month,DSL,0
+24,48.91,Month-to-month,Fiber optic,0
+70,93.47,Two year,Fiber optic,0
+26,76.64,One year,DSL,0
+66,75.09,Two year,DSL,0
+36,102.85,Two year,DSL,1
+51,91.05,One year,Fiber optic,0
+33,22.66,Two year,DSL,0
+19,24.95,Month-to-month,DSL,0
+55,80.16,Month-to-month,DSL,0
+70,68.62,Month-to-month,No,1
+19,46.02,Month-to-month,DSL,1
+56,61.87,Month-to-month,DSL,0
+19,95.79,Month-to-month,Fiber optic,1
+52,102.66,One year,DSL,0
+57,76.12,One year,No,0
+32,58.54,One year,No,0
+53,47.07,Month-to-month,Fiber optic,0
+19,72.19,One year,Fiber optic,1
+5,51.47,Month-to-month,Fiber optic,1
+7,76.41,Month-to-month,DSL,0
+32,87.67,Month-to-month,DSL,1
+65,26.61,Month-to-month,DSL,0
+9,20.11,Month-to-month,DSL,1
+33,41.23,Two year,Fiber optic,0
+51,109.45,One year,DSL,0
+14,84.63,One year,DSL,1
+52,37.2,Month-to-month,Fiber optic,0
+22,109.03,Two year,Fiber optic,1
+59,67.0,One year,DSL,1
+42,67.61,Month-to-month,DSL,0
+39,113.55,One year,DSL,1
+12,25.95,Month-to-month,DSL,0
+33,41.52,Month-to-month,No,0
+62,78.58,Month-to-month,No,0
+1,39.55,Month-to-month,Fiber optic,1
+55,87.95,Month-to-month,Fiber optic,1
+35,41.41,Month-to-month,Fiber optic,0
+52,29.92,Month-to-month,Fiber optic,0
+48,40.7,Two year,DSL,0
+31,62.27,Month-to-month,DSL,0
+22,37.61,Month-to-month,Fiber optic,0
+45,33.47,Month-to-month,Fiber optic,0
+10,106.03,Two year,DSL,0
+42,52.04,One year,DSL,0
+6,56.08,Two year,DSL,0
+47,25.53,Month-to-month,DSL,0
+45,55.74,Month-to-month,Fiber optic,0
+6,46.48,One year,Fiber optic,0
+55,81.05,Month-to-month,Fiber optic,0
+30,40.54,Two year,DSL,0
+57,108.84,Two year,DSL,0
+3,112.97,Month-to-month,No,1
+13,29.98,Two year,Fiber optic,0
+36,30.74,One year,DSL,0
+13,31.53,Month-to-month,DSL,0
+24,81.96,Month-to-month,No,0
+48,32.2,Month-to-month,Fiber optic,0
+10,105.24,Two year,No,1
+49,95.43,Month-to-month,Fiber optic,1
+7,101.98,Month-to-month,Fiber optic,0
+12,72.61,One year,Fiber optic,0
+42,119.67,Month-to-month,DSL,1
+57,24.42,Month-to-month,Fiber optic,0
+12,60.13,One year,Fiber optic,0
+21,52.39,Month-to-month,DSL,0
+67,114.86,Month-to-month,No,1
+72,77.69,Month-to-month,Fiber optic,0
+42,100.62,Month-to-month,DSL,1
+32,37.03,Month-to-month,DSL,0
+25,117.86,One year,No,0
+44,69.86,Two year,No,0
+43,69.37,Month-to-month,Fiber optic,1
+21,117.09,Two year,No,0
+1,58.07,One year,No,0
+11,59.75,One year,No,1
+69,78.48,One year,No,0
+30,32.81,One year,Fiber optic,0
+35,52.11,Two year,Fiber optic,0
+34,39.32,Month-to-month,Fiber optic,0
+57,30.33,Month-to-month,Fiber optic,0
+4,106.61,Month-to-month,DSL,1
+6,78.93,Month-to-month,Fiber optic,1
+20,55.87,One year,No,0
+35,60.87,Month-to-month,DSL,1
+48,63.15,Month-to-month,No,0
+35,83.31,Month-to-month,Fiber optic,1
+32,112.68,Month-to-month,DSL,0
+68,113.28,One year,DSL,0
+11,59.15,One year,Fiber optic,0
+41,52.93,Month-to-month,Fiber optic,1
+39,65.1,Month-to-month,DSL,0
+34,76.79,Month-to-month,Fiber optic,1
+58,66.18,Month-to-month,DSL,0
+19,85.88,One year,Fiber optic,1
+69,75.44,One year,No,0
+24,52.07,Month-to-month,Fiber optic,1
+39,54.57,Month-to-month,Fiber optic,0
+38,57.86,Two year,Fiber optic,0
+62,29.46,One year,No,0
+32,36.61,Month-to-month,DSL,1
+20,92.31,Month-to-month,DSL,0
+1,58.91,Month-to-month,DSL,0
+26,41.45,Two year,Fiber optic,0
+60,76.27,Month-to-month,Fiber optic,0
+0,95.55,Month-to-month,Fiber optic,0
+65,45.74,Two year,DSL,0
+39,102.68,One year,DSL,0
+10,112.75,Month-to-month,Fiber optic,1
+22,79.74,Month-to-month,No,1
+40,86.89,Month-to-month,DSL,0
+23,25.26,One year,DSL,0
+7,114.55,Month-to-month,DSL,1
+48,59.25,Two year,Fiber optic,0
+49,112.39,Two year,DSL,0
+8,77.9,Month-to-month,DSL,1
+20,20.46,One year,Fiber optic,0
+17,23.85,Month-to-month,DSL,0
+48,88.04,Month-to-month,Fiber optic,1
+53,76.27,One year,DSL,0
+53,22.65,Month-to-month,No,0
+68,94.35,Month-to-month,Fiber optic,0
+56,105.21,Month-to-month,DSL,0
+23,69.64,Month-to-month,DSL,1
+7,66.58,Month-to-month,Fiber optic,1
+44,20.55,One year,No,0
+66,98.66,Two year,DSL,0
+71,53.07,One year,DSL,0
+16,107.88,Two year,DSL,0
+17,57.31,Month-to-month,Fiber optic,0
+2,76.51,Two year,No,0
+10,47.03,Month-to-month,Fiber optic,1
+40,36.06,Month-to-month,DSL,0
+39,97.49,Two year,Fiber optic,0
+27,69.66,Month-to-month,Fiber optic,0
+22,73.65,Month-to-month,DSL,1
+60,116.54,Month-to-month,DSL,0
+33,116.36,Month-to-month,Fiber optic,1
+59,105.56,Month-to-month,Fiber optic,0
+70,38.76,Month-to-month,Fiber optic,0
+23,79.43,Two year,Fiber optic,0
+14,107.81,Month-to-month,No,1
+69,57.45,Month-to-month,DSL,0
+46,30.11,Month-to-month,DSL,0
+21,101.1,Two year,DSL,0
+45,68.18,Month-to-month,No,0
+37,76.44,Month-to-month,Fiber optic,1
+66,118.21,Month-to-month,DSL,0
+18,80.72,One year,DSL,0
+72,62.5,One year,Fiber optic,0
+68,57.0,One year,Fiber optic,0
+13,61.76,One year,Fiber optic,1
+12,31.84,Month-to-month,DSL,1
+38,99.48,Month-to-month,No,1
+3,103.77,Month-to-month,Fiber optic,1
+21,48.44,Month-to-month,Fiber optic,0
+31,50.38,Month-to-month,Fiber optic,0
+70,107.43,Month-to-month,No,0
+72,22.4,Month-to-month,No,0
+11,72.05,One year,Fiber optic,0
+65,66.37,Month-to-month,Fiber optic,1
+6,89.01,One year,Fiber optic,1
+54,36.34,One year,No,0
+61,86.83,Month-to-month,Fiber optic,0
+65,57.67,Month-to-month,DSL,0
+16,81.87,One year,DSL,0
+65,24.01,One year,No,0
+8,66.17,Month-to-month,No,1
+37,72.23,Month-to-month,No,1
+34,41.43,One year,Fiber optic,0
+23,33.96,One year,Fiber optic,0
+1,38.85,Month-to-month,No,0
+56,54.41,Month-to-month,DSL,0
+24,29.68,Two year,DSL,0
+48,114.73,Month-to-month,No,0
+29,60.5,Two year,DSL,0
+27,100.9,Month-to-month,Fiber optic,0
+64,117.44,Month-to-month,Fiber optic,0
+6,28.07,Month-to-month,Fiber optic,1
+53,85.17,Month-to-month,DSL,1
+54,107.14,Two year,Fiber optic,0
+27,83.42,Month-to-month,DSL,1
+19,62.9,Two year,No,0
+0,63.11,Month-to-month,DSL,1
+68,23.59,Two year,Fiber optic,0
+69,73.46,Two year,Fiber optic,0
+17,119.35,One year,DSL,1
+2,115.87,Month-to-month,DSL,1
+8,24.04,One year,Fiber optic,0
+4,90.58,Month-to-month,DSL,1
+60,50.18,Two year,DSL,0
+65,110.3,Month-to-month,Fiber optic,1
+11,24.51,Month-to-month,No,1
+54,113.59,Month-to-month,Fiber optic,1
+13,103.75,One year,Fiber optic,1
+26,31.75,Two year,No,0
+43,25.98,Month-to-month,Fiber optic,0
+52,103.47,One year,Fiber optic,0
+63,35.58,Two year,Fiber optic,0
+3,73.49,Month-to-month,DSL,1
+14,111.57,Month-to-month,DSL,1
+20,76.74,One year,Fiber optic,0
+22,59.72,One year,DSL,0
+72,64.5,Month-to-month,Fiber optic,0
+56,26.31,Two year,DSL,0
+23,116.88,Month-to-month,Fiber optic,1
+70,51.07,Two year,DSL,0
+36,38.94,Two year,Fiber optic,0
+36,48.6,Two year,Fiber optic,1
+31,116.44,Month-to-month,Fiber optic,0
+10,29.43,Month-to-month,DSL,0
+68,106.73,Month-to-month,DSL,0
+1,90.78,Month-to-month,No,1
+12,103.0,One year,DSL,0
+16,117.59,Month-to-month,Fiber optic,1
+20,104.22,Month-to-month,DSL,1
+9,114.34,Month-to-month,DSL,1
+1,32.69,Month-to-month,Fiber optic,0
+49,99.58,Month-to-month,Fiber optic,0
+70,74.57,One year,DSL,0
+8,74.35,One year,No,0
+21,109.89,Month-to-month,DSL,1
+36,117.18,Two year,Fiber optic,1
+67,90.48,Two year,Fiber optic,0
+50,68.29,Month-to-month,Fiber optic,1
+55,65.64,One year,Fiber optic,0
+42,58.63,Month-to-month,DSL,0
+30,56.16,Month-to-month,No,0
+14,59.15,Month-to-month,Fiber optic,1
+63,28.98,Month-to-month,No,0
+58,27.74,Two year,No,0
+1,97.99,Two year,No,0
+52,64.61,Two year,Fiber optic,0
+6,113.07,One year,Fiber optic,0
+53,81.22,One year,Fiber optic,0
+60,23.52,Two year,Fiber optic,0
+9,35.75,Month-to-month,Fiber optic,1
+31,40.58,Month-to-month,Fiber optic,1
+9,117.57,One year,DSL,1
+41,41.87,Month-to-month,No,1
+67,71.58,Month-to-month,DSL,0
+5,113.62,Month-to-month,No,1
+29,117.72,One year,DSL,0
+71,43.64,Month-to-month,DSL,0
+21,24.91,Month-to-month,No,0
+9,35.36,Month-to-month,No,0
+35,26.33,Month-to-month,Fiber optic,1
+37,39.51,Two year,No,0
+48,76.86,Month-to-month,DSL,0
+22,111.24,One year,No,0
+69,73.72,One year,Fiber optic,0
+38,82.6,Month-to-month,Fiber optic,1
+20,40.19,Two year,Fiber optic,0
+70,100.06,One year,DSL,0
+67,81.78,One year,Fiber optic,0
+36,106.41,Month-to-month,Fiber optic,1
+1,114.88,Month-to-month,DSL,1
+43,54.79,Two year,No,0
+40,29.06,One year,Fiber optic,0
+10,42.59,Two year,DSL,0
+46,63.78,Two year,Fiber optic,0
+61,114.57,Month-to-month,DSL,1
+7,57.83,One year,DSL,0
+52,97.08,Month-to-month,Fiber optic,0
+10,74.05,One year,DSL,0
+54,38.28,Month-to-month,DSL,1
+30,52.07,Month-to-month,Fiber optic,0
+0,85.32,One year,DSL,0
+70,87.29,One year,No,1
+12,63.48,One year,Fiber optic,1
+43,42.86,Month-to-month,DSL,0
+13,92.19,Month-to-month,Fiber optic,1
+68,36.89,Two year,DSL,0
+53,113.67,Month-to-month,Fiber optic,1
+58,38.79,Month-to-month,DSL,0
+31,30.73,One year,No,0
+34,69.76,Month-to-month,DSL,0
+46,71.95,One year,Fiber optic,0
+57,70.82,Month-to-month,DSL,0
+61,63.67,Two year,DSL,0
+1,119.48,Two year,Fiber optic,1
+48,68.63,Two year,Fiber optic,0
+7,67.79,One year,No,0
+21,62.18,Month-to-month,DSL,0
+60,26.68,One year,DSL,0
+18,79.3,Two year,Fiber optic,0
+58,42.8,One year,Fiber optic,0
+33,83.76,One year,No,0
+16,25.08,One year,No,0
+24,118.14,One year,No,1
+38,66.9,One year,DSL,1
+55,109.68,Month-to-month,Fiber optic,1
+44,67.56,Month-to-month,Fiber optic,1
+68,26.03,One year,DSL,0
+63,102.22,Month-to-month,Fiber optic,0
+54,84.82,Two year,DSL,0
+44,98.18,One year,DSL,1
+21,62.82,Month-to-month,No,0
+30,83.79,Two year,DSL,0
+8,105.62,One year,No,1
+27,83.11,One year,DSL,0
+67,54.77,Month-to-month,DSL,0
+31,86.25,Two year,DSL,1
+8,87.19,Month-to-month,DSL,1
+47,116.06,One year,Fiber optic,0
+70,57.09,Month-to-month,DSL,0
+63,62.51,One year,Fiber optic,0
+20,101.21,One year,No,0
+33,70.58,One year,Fiber optic,0
+38,93.66,Month-to-month,DSL,0
+18,65.97,Two year,Fiber optic,0
+19,41.55,One year,Fiber optic,0
+17,94.52,Month-to-month,Fiber optic,1
+72,33.12,Two year,DSL,0
+54,39.86,One year,Fiber optic,0
+61,82.68,Two year,Fiber optic,0
+59,94.73,Two year,DSL,0
+70,109.47,Two year,DSL,0
+7,47.26,One year,No,0
+64,31.07,One year,DSL,0
+4,115.6,Month-to-month,DSL,1
+34,35.44,Month-to-month,DSL,0
+43,39.77,One year,Fiber optic,1
+26,49.13,Month-to-month,Fiber optic,1
+10,72.94,Two year,DSL,0
+14,108.28,Month-to-month,Fiber optic,1
+60,96.05,Month-to-month,Fiber optic,1
+23,90.82,Month-to-month,DSL,1
+22,37.52,Month-to-month,No,0
+67,55.77,Month-to-month,DSL,0
+10,67.84,Month-to-month,DSL,0
+66,34.74,Two year,No,0
+67,47.34,Month-to-month,No,0
+43,50.83,Month-to-month,DSL,1
+12,32.73,Month-to-month,No,1
+11,75.02,Month-to-month,Fiber optic,1
+20,90.5,Month-to-month,DSL,1
+42,26.99,One year,No,0
+11,68.11,One year,Fiber optic,0
+33,98.22,Month-to-month,DSL,0
+8,94.8,One year,Fiber optic,0
+39,101.51,Month-to-month,Fiber optic,1
+1,64.82,Month-to-month,DSL,1
+51,102.06,Two year,No,0
+4,44.08,Month-to-month,Fiber optic,1
+14,56.08,Two year,Fiber optic,0
+12,37.64,Month-to-month,Fiber optic,0
+60,66.75,Month-to-month,Fiber optic,0
+3,59.21,Month-to-month,DSL,1
+31,44.09,Month-to-month,No,0
+43,95.18,Two year,Fiber optic,1
+37,51.38,Month-to-month,Fiber optic,1
+49,47.28,Two year,Fiber optic,1
+58,33.09,Two year,DSL,0
+28,63.88,One year,DSL,0
+60,50.3,Month-to-month,Fiber optic,0
+23,56.93,Month-to-month,DSL,1
+71,43.6,Month-to-month,Fiber optic,0
+36,96.32,One year,No,0
+53,113.0,Month-to-month,DSL,1
+63,69.79,Two year,DSL,0
+57,84.3,One year,Fiber optic,0
+62,106.72,Month-to-month,DSL,0
+39,119.88,One year,No,0
+3,81.35,Month-to-month,Fiber optic,1
+35,108.98,Two year,DSL,1
+13,110.86,Month-to-month,DSL,1
+64,99.15,Two year,No,0
+17,66.09,Two year,DSL,0
+16,28.12,Two year,Fiber optic,1
+18,21.58,Month-to-month,DSL,0
+46,67.72,Two year,DSL,0
+41,69.43,Month-to-month,No,0
+69,60.74,One year,DSL,0
+30,76.82,Month-to-month,DSL,0
+20,75.22,Month-to-month,Fiber optic,1
+3,103.66,Month-to-month,No,1
+0,30.87,Month-to-month,DSL,1
+27,42.52,Month-to-month,DSL,0
+67,99.3,Two year,No,0
+38,104.78,Month-to-month,Fiber optic,1
+65,119.48,One year,No,1
+7,107.29,Month-to-month,Fiber optic,1
+6,108.99,One year,Fiber optic,1
+60,51.43,One year,Fiber optic,0
+7,60.17,Month-to-month,DSL,1
+3,46.81,One year,Fiber optic,0
+29,80.63,Two year,Fiber optic,0
+67,113.88,Two year,No,0
+50,54.46,Month-to-month,Fiber optic,1
+7,75.7,Month-to-month,DSL,0
+61,49.63,One year,Fiber optic,0
+61,36.98,Month-to-month,Fiber optic,0
+58,39.52,Two year,Fiber optic,0
+65,25.79,Month-to-month,Fiber optic,0
+17,114.93,Two year,Fiber optic,0
+71,60.29,Month-to-month,DSL,0
+23,103.41,Month-to-month,Fiber optic,1
+58,88.13,Two year,Fiber optic,0
+42,39.19,Two year,No,0
+56,37.55,Two year,Fiber optic,0
+45,101.2,Two year,Fiber optic,0
+46,46.47,Month-to-month,Fiber optic,0
+44,111.33,Month-to-month,Fiber optic,0
+56,34.01,Month-to-month,DSL,0
+53,87.77,Month-to-month,No,0
+9,101.45,Month-to-month,No,1
+60,43.53,Two year,Fiber optic,0
+39,47.62,Month-to-month,Fiber optic,0
+23,116.45,Month-to-month,DSL,0
+37,46.46,Month-to-month,Fiber optic,1
+70,63.0,Month-to-month,Fiber optic,0
+62,63.25,Month-to-month,Fiber optic,0
+60,45.3,One year,DSL,0
+33,97.58,Month-to-month,Fiber optic,0
+57,97.18,One year,DSL,0
+28,57.83,Two year,Fiber optic,0
+50,103.51,One year,Fiber optic,0
+46,41.31,One year,DSL,0
+18,20.43,Month-to-month,Fiber optic,1
+19,77.12,Month-to-month,No,0
+4,119.41,Month-to-month,Fiber optic,1
+10,23.86,Two year,DSL,0
+31,40.8,One year,Fiber optic,0
+34,71.89,Month-to-month,DSL,0
+12,100.99,Month-to-month,Fiber optic,1
+30,28.9,Two year,Fiber optic,0
+44,59.52,One year,DSL,0
+16,94.71,One year,Fiber optic,1
+24,57.15,Two year,Fiber optic,0
+26,38.88,One year,Fiber optic,0
+36,39.55,One year,DSL,1
+26,61.0,Month-to-month,DSL,0
+53,67.94,Month-to-month,Fiber optic,0
+23,106.18,Two year,DSL,0
+31,84.23,One year,Fiber optic,0
+27,89.04,Month-to-month,DSL,0
+13,118.3,One year,DSL,1
+50,61.18,Month-to-month,Fiber optic,1
+17,60.34,Two year,DSL,0
+21,112.33,Month-to-month,Fiber optic,0
+57,44.59,Two year,DSL,0
+69,92.98,Month-to-month,Fiber optic,0
+48,95.46,Month-to-month,Fiber optic,1
+66,29.78,Month-to-month,Fiber optic,0
+62,66.82,Two year,Fiber optic,0
+35,40.06,Month-to-month,Fiber optic,0
+56,38.54,Month-to-month,Fiber optic,0
+23,66.38,One year,DSL,0
+33,48.94,Month-to-month,Fiber optic,1
+39,99.61,Month-to-month,DSL,1
+70,110.76,Month-to-month,Fiber optic,1
+61,100.27,Two year,DSL,0
+35,46.6,Month-to-month,No,0
+47,47.41,Month-to-month,Fiber optic,1
+14,45.47,Month-to-month,Fiber optic,1
+58,33.5,Month-to-month,Fiber optic,1
+40,114.38,Month-to-month,DSL,1
+38,60.2,Month-to-month,DSL,0
+55,42.47,Month-to-month,No,0
+46,104.67,Month-to-month,Fiber optic,0
+5,59.92,Two year,DSL,1
+21,23.51,Month-to-month,Fiber optic,0
+12,36.19,Month-to-month,Fiber optic,1
+53,83.93,Two year,DSL,0
+2,98.29,Two year,Fiber optic,0
+14,41.09,One year,DSL,0
+43,111.74,Month-to-month,DSL,1
+50,105.1,Month-to-month,Fiber optic,1
+36,104.84,Month-to-month,DSL,0
+62,42.77,Month-to-month,No,0
+67,25.05,Month-to-month,Fiber optic,0
+9,106.74,One year,No,0
+69,50.58,Month-to-month,Fiber optic,0
+44,81.89,One year,No,0
+46,96.0,Month-to-month,Fiber optic,0
+6,32.83,Month-to-month,Fiber optic,1
+45,98.08,One year,Fiber optic,0
+52,113.85,Two year,No,0
+42,92.84,Month-to-month,DSL,1
+6,64.12,One year,Fiber optic,0
+38,107.67,Month-to-month,Fiber optic,0
+68,72.75,Month-to-month,Fiber optic,0
+52,94.48,One year,No,0
+10,102.05,Month-to-month,Fiber optic,1
+70,94.94,Month-to-month,DSL,0
+69,48.79,Month-to-month,Fiber optic,0
+12,31.78,Month-to-month,Fiber optic,1
+58,43.83,Month-to-month,DSL,0
+29,70.29,Month-to-month,DSL,0
+43,70.53,Two year,DSL,0
+32,78.26,One year,Fiber optic,0
+57,59.51,Month-to-month,No,0
+72,98.69,Month-to-month,Fiber optic,1
+58,111.32,One year,DSL,0
+67,44.67,Month-to-month,Fiber optic,0
+69,93.65,Month-to-month,No,0
+6,87.8,One year,Fiber optic,1
+18,72.31,Month-to-month,DSL,0
+52,38.85,Month-to-month,DSL,0
+43,99.52,Month-to-month,No,0
+3,116.06,Month-to-month,No,1
+6,92.18,Month-to-month,DSL,1
+37,111.79,Two year,No,0
+44,118.42,Month-to-month,DSL,0
+12,55.21,One year,DSL,0
+12,83.82,One year,Fiber optic,0
+9,67.39,Month-to-month,Fiber optic,1
+41,118.66,Month-to-month,Fiber optic,1
+0,29.38,Month-to-month,No,1
+41,61.24,One year,No,0
+34,107.55,Month-to-month,DSL,1
+34,48.41,One year,Fiber optic,0
+49,98.78,Two year,Fiber optic,0
+38,58.28,One year,Fiber optic,0
+53,118.0,Two year,No,0
+55,108.35,One year,Fiber optic,1
+67,50.13,Two year,DSL,0
+58,97.02,Two year,DSL,0
+37,53.69,One year,No,0
+35,80.64,Two year,No,0
+17,85.85,Two year,DSL,0
+43,102.96,Month-to-month,DSL,0
+10,22.45,One year,Fiber optic,1
+67,42.02,Month-to-month,DSL,0
+61,91.19,Two year,DSL,0
+8,76.35,Month-to-month,No,1
+57,69.56,Two year,No,0
+8,25.52,One year,No,0
+52,54.83,Two year,Fiber optic,0
+6,106.51,Month-to-month,DSL,1
+35,23.09,One year,No,0
+48,59.64,One year,DSL,0
+53,114.51,Two year,DSL,0
+30,25.09,Two year,No,0
+67,94.97,One year,Fiber optic,0
+56,45.76,One year,No,0
+15,106.66,Month-to-month,DSL,0
+48,94.61,Two year,No,0
+53,108.57,Month-to-month,Fiber optic,0
+24,41.59,One year,Fiber optic,0
+53,73.13,One year,No,0
+65,97.93,Month-to-month,Fiber optic,0
+59,44.57,Month-to-month,Fiber optic,0
+55,43.07,Month-to-month,Fiber optic,0
+46,22.72,Two year,Fiber optic,0
+19,115.85,Month-to-month,No,0
+58,91.0,Month-to-month,Fiber optic,0
+26,83.56,One year,DSL,0
+38,94.4,Month-to-month,DSL,0
+22,73.16,Two year,No,0
+22,67.61,Month-to-month,No,1
+11,64.95,Month-to-month,No,0
+70,84.04,Month-to-month,DSL,0
+10,40.15,Month-to-month,Fiber optic,1
+6,108.81,Month-to-month,Fiber optic,0
+68,101.18,One year,Fiber optic,0
+40,54.96,Month-to-month,DSL,0
+31,77.86,Month-to-month,Fiber optic,0
+53,34.1,Month-to-month,DSL,0
+27,117.23,Month-to-month,Fiber optic,1
+9,110.29,Two year,DSL,0
+53,112.19,Month-to-month,DSL,0
+12,53.22,Two year,DSL,0
+40,36.91,Month-to-month,No,0
+69,41.18,Month-to-month,Fiber optic,0
+68,29.0,Month-to-month,No,0
+26,32.01,Month-to-month,Fiber optic,0
+56,27.13,One year,Fiber optic,1
+44,118.98,Month-to-month,Fiber optic,0
+34,27.41,Month-to-month,Fiber optic,0
+10,33.25,One year,Fiber optic,0
+27,102.73,One year,Fiber optic,0
+47,78.02,Two year,No,0
+72,97.44,Two year,No,0
+0,83.09,One year,DSL,1
+52,108.22,Two year,Fiber optic,0
+61,83.85,One year,DSL,0
+69,72.21,Month-to-month,DSL,0
+30,91.27,One year,Fiber optic,1
+8,64.74,Month-to-month,Fiber optic,0
+19,54.61,One year,Fiber optic,1
+62,66.77,Two year,DSL,0
+64,36.97,Month-to-month,No,0
+46,99.66,Two year,No,0
+8,46.07,Two year,Fiber optic,0
+8,35.35,Month-to-month,No,1
+34,44.64,Month-to-month,DSL,0
+42,104.21,Two year,Fiber optic,0
+2,53.02,Two year,No,0
+50,88.6,Month-to-month,No,0
+39,105.64,Month-to-month,No,0
+0,27.77,One year,Fiber optic,1
+6,96.5,Month-to-month,No,0
+33,50.77,Month-to-month,Fiber optic,0
+52,41.66,Month-to-month,DSL,0
+60,88.89,Month-to-month,DSL,0
+31,110.98,One year,Fiber optic,0
+21,49.5,One year,Fiber optic,0
+70,76.88,One year,Fiber optic,0
+33,48.98,One year,No,0
+23,75.43,Month-to-month,Fiber optic,1
+32,82.19,Month-to-month,Fiber optic,1
+0,81.03,Month-to-month,Fiber optic,1
+22,82.35,Month-to-month,Fiber optic,0
+37,33.51,Month-to-month,Fiber optic,0
+67,89.35,Month-to-month,Fiber optic,0
+53,87.48,Month-to-month,Fiber optic,1
+57,88.26,Month-to-month,Fiber optic,0
+39,27.41,One year,Fiber optic,0
+8,64.68,One year,No,0
+28,60.9,Two year,DSL,0
+72,28.67,One year,Fiber optic,1
+3,42.24,One year,Fiber optic,1
+64,64.1,Month-to-month,DSL,0
+49,94.29,One year,Fiber optic,0
+20,43.71,Month-to-month,Fiber optic,1
+56,102.97,Month-to-month,Fiber optic,0
+61,74.58,Month-to-month,Fiber optic,0
+3,96.04,Month-to-month,DSL,1
+7,67.26,Month-to-month,DSL,0
+48,69.92,One year,Fiber optic,0
+72,81.97,Two year,Fiber optic,0
+1,112.8,One year,Fiber optic,1
+48,69.18,One year,No,0
+9,72.87,Month-to-month,Fiber optic,1
+47,80.2,Month-to-month,DSL,1
+45,93.75,One year,Fiber optic,0
+6,27.19,Month-to-month,DSL,1
+49,71.57,Month-to-month,Fiber optic,0
+65,68.16,Month-to-month,DSL,0
+63,112.17,Two year,Fiber optic,0
+2,69.35,One year,Fiber optic,1
+17,66.83,Month-to-month,Fiber optic,0
+17,116.22,One year,DSL,0
+33,65.06,Month-to-month,DSL,1
+10,38.09,Month-to-month,Fiber optic,0
+62,41.69,Month-to-month,Fiber optic,0
+56,29.52,Month-to-month,DSL,0
+59,20.06,One year,No,0
+14,63.19,Month-to-month,Fiber optic,0
+1,96.92,One year,Fiber optic,0
+66,93.35,Month-to-month,DSL,0
+21,23.21,One year,Fiber optic,0
+47,77.0,One year,DSL,0
+66,35.43,One year,DSL,0
+2,114.11,One year,Fiber optic,1
+0,36.74,Two year,Fiber optic,1
+0,82.66,Month-to-month,No,1
+11,52.62,One year,No,0
+3,84.16,One year,DSL,1
+59,61.23,Month-to-month,DSL,0
+44,95.96,Month-to-month,Fiber optic,0
+71,43.07,Month-to-month,No,0
+58,110.58,Month-to-month,No,0
+70,70.02,Month-to-month,DSL,0
+17,95.61,Month-to-month,DSL,1
+21,104.97,One year,DSL,1
+62,119.88,Month-to-month,No,0
+17,42.39,Two year,Fiber optic,0
+4,48.69,Month-to-month,Fiber optic,1
+48,45.04,One year,Fiber optic,0
+58,46.29,Month-to-month,DSL,0
+70,78.24,Month-to-month,Fiber optic,0
+67,119.35,Month-to-month,DSL,1
+8,119.03,One year,Fiber optic,1
+56,72.68,Month-to-month,Fiber optic,0
+61,83.9,Two year,Fiber optic,0
+50,106.0,Month-to-month,DSL,0
+59,113.29,One year,No,1
+61,40.39,Month-to-month,Fiber optic,0
+32,72.85,One year,DSL,0
+2,103.28,Month-to-month,DSL,1
+33,50.32,Month-to-month,Fiber optic,1
+14,63.98,Month-to-month,DSL,1
+8,118.56,Month-to-month,DSL,1
+9,118.5,Month-to-month,DSL,1
+50,110.61,Two year,DSL,0
+36,99.84,Month-to-month,Fiber optic,1
+39,46.91,Month-to-month,Fiber optic,0
+54,52.09,Two year,DSL,0
+40,74.73,Month-to-month,Fiber optic,0
+45,76.08,Month-to-month,DSL,0
+6,70.55,One year,DSL,1
+62,83.67,Two year,DSL,0
+32,60.83,One year,Fiber optic,0
+11,94.92,Month-to-month,No,0
+59,53.35,Two year,Fiber optic,0
+53,53.07,Month-to-month,DSL,0
+3,32.72,Two year,DSL,0
+14,38.87,Two year,DSL,0
+1,105.05,Two year,No,0
+19,64.63,Month-to-month,DSL,0
+7,42.79,Month-to-month,No,0
+51,95.93,One year,Fiber optic,0
+38,75.4,Month-to-month,Fiber optic,1
+71,22.12,Month-to-month,No,0
+54,51.64,Two year,DSL,0
+44,37.7,One year,Fiber optic,0
+37,85.59,Month-to-month,DSL,0
+3,47.5,Month-to-month,No,1
+5,26.49,Month-to-month,Fiber optic,0
+44,25.49,Month-to-month,DSL,0
+0,78.17,Month-to-month,No,1
+3,22.17,Two year,DSL,0
+15,104.88,One year,DSL,0
+64,35.54,Month-to-month,Fiber optic,0
+33,80.66,Month-to-month,Fiber optic,0
+51,64.47,One year,No,0
+30,64.29,Two year,Fiber optic,0
+12,27.18,Two year,Fiber optic,0
+27,100.28,Month-to-month,DSL,1
+6,109.31,Two year,DSL,0
+56,21.1,Month-to-month,No,0
+13,37.86,Month-to-month,DSL,1
+27,110.39,Two year,Fiber optic,0
+71,74.95,Month-to-month,DSL,0
+43,35.0,Month-to-month,DSL,0
+33,40.28,Month-to-month,Fiber optic,0
+39,86.0,Month-to-month,Fiber optic,0
+57,92.48,Month-to-month,Fiber optic,1
+18,79.94,One year,No,0
+46,115.31,Month-to-month,DSL,1
+63,69.41,Month-to-month,Fiber optic,0
+41,50.03,Two year,DSL,0
+32,67.72,Month-to-month,Fiber optic,0
+10,55.97,Two year,DSL,0
+18,42.44,Month-to-month,Fiber optic,0
+69,24.6,One year,DSL,0
+39,55.22,Month-to-month,No,0
+21,91.14,Two year,No,0
+30,21.84,Month-to-month,No,1
+42,63.92,Two year,DSL,0
+39,84.4,Month-to-month,No,0
+51,81.04,One year,DSL,0
+18,97.66,Month-to-month,DSL,1
+47,101.05,Month-to-month,DSL,1
+32,91.17,Month-to-month,DSL,0
+68,30.28,Month-to-month,Fiber optic,0
+11,67.5,Month-to-month,DSL,1
+10,80.34,One year,Fiber optic,1
+33,44.56,Month-to-month,Fiber optic,1
+37,24.26,Month-to-month,No,0
+50,42.36,Month-to-month,Fiber optic,1
+29,65.49,Month-to-month,Fiber optic,1
+66,61.39,Month-to-month,DSL,0
+34,37.67,One year,No,0
+9,102.44,Month-to-month,DSL,1
+8,112.57,Two year,DSL,1
+71,40.13,Month-to-month,DSL,0
+9,112.96,Month-to-month,Fiber optic,1
+69,21.79,Two year,Fiber optic,0
+20,112.5,Month-to-month,Fiber optic,0
+6,115.19,Month-to-month,DSL,1
+22,21.21,Two year,Fiber optic,0
+44,96.3,Two year,Fiber optic,0
+31,117.02,One year,DSL,1
+57,110.59,Month-to-month,Fiber optic,0
+44,117.07,One year,Fiber optic,0
+29,75.03,Two year,Fiber optic,0
+46,27.82,Two year,DSL,0
+70,104.98,Month-to-month,Fiber optic,1
+30,81.38,Month-to-month,DSL,0
+11,81.47,Month-to-month,DSL,1
+29,61.73,Month-to-month,DSL,1
+61,77.18,One year,Fiber optic,0
+15,35.36,Month-to-month,DSL,0
+69,93.98,Month-to-month,Fiber optic,1
+42,27.5,Month-to-month,DSL,0
+43,92.98,Month-to-month,Fiber optic,1
+23,104.9,Month-to-month,DSL,0
+67,67.25,Month-to-month,Fiber optic,1
+2,70.98,Month-to-month,Fiber optic,1
+21,51.22,Two year,Fiber optic,0
+30,116.95,Month-to-month,DSL,1
+34,93.31,Month-to-month,Fiber optic,1
+34,56.9,Month-to-month,No,1
+10,37.48,Month-to-month,No,0
+16,41.96,Month-to-month,DSL,0
+6,66.39,Month-to-month,Fiber optic,0
+41,114.26,Month-to-month,DSL,0
+25,93.41,Month-to-month,DSL,0
+41,41.52,One year,Fiber optic,0
+43,105.96,Month-to-month,Fiber optic,1
+51,57.82,Month-to-month,Fiber optic,0
+39,105.17,One year,No,0
+47,44.17,Month-to-month,DSL,0
+42,81.87,Month-to-month,Fiber optic,0
+47,112.67,Month-to-month,Fiber optic,1
+45,45.79,Month-to-month,DSL,0
+23,89.29,Month-to-month,Fiber optic,0
+17,118.73,Two year,No,0
+57,35.06,Two year,Fiber optic,0
+25,28.84,Two year,DSL,0
+40,87.42,Month-to-month,Fiber optic,0
+14,53.97,Month-to-month,No,1
+31,27.12,Month-to-month,No,0
+38,67.53,Month-to-month,Fiber optic,1
+45,95.38,Month-to-month,Fiber optic,1
+38,48.51,Month-to-month,Fiber optic,1
+26,53.5,Month-to-month,No,0
+70,104.57,Month-to-month,No,0
+37,72.01,Month-to-month,No,0
+59,104.27,One year,Fiber optic,0
+53,64.64,Month-to-month,DSL,0
+40,115.3,Two year,Fiber optic,0
+64,85.08,Month-to-month,DSL,1
+9,31.59,Month-to-month,DSL,0
+67,108.51,Month-to-month,Fiber optic,0
+62,68.93,Month-to-month,Fiber optic,0
+36,34.16,Month-to-month,No,0
+53,35.27,Month-to-month,Fiber optic,0
+37,88.75,One year,No,0
+19,24.74,Month-to-month,Fiber optic,0
+58,48.66,Month-to-month,Fiber optic,0
+17,33.98,Two year,DSL,0
+22,64.11,Month-to-month,Fiber optic,1
+37,61.44,One year,DSL,1
+61,72.19,Month-to-month,DSL,0
+28,47.96,Month-to-month,DSL,0
+36,23.2,Month-to-month,No,0
+3,81.44,Month-to-month,Fiber optic,1
+8,57.37,One year,No,0
+4,85.13,Month-to-month,No,1
+5,30.87,Month-to-month,No,1
+63,21.38,Month-to-month,DSL,0
+61,44.83,Two year,No,0
+59,65.65,One year,No,0
+4,59.41,Two year,No,0
+5,101.03,One year,DSL,1
+20,57.78,One year,DSL,0
+41,73.04,Month-to-month,No,0
+24,79.35,Two year,DSL,0
+35,22.18,Month-to-month,Fiber optic,0
+12,71.51,Month-to-month,Fiber optic,1
+53,54.48,One year,DSL,0
+22,62.13,Month-to-month,DSL,1
+4,30.03,Month-to-month,No,1
+54,98.28,Month-to-month,No,0
+65,114.24,Month-to-month,No,0
+1,22.23,Two year,DSL,0
+31,80.14,Month-to-month,DSL,1
+60,96.38,Two year,Fiber optic,0
+51,48.48,Month-to-month,Fiber optic,1
+62,98.76,One year,DSL,0
+30,83.24,Month-to-month,Fiber optic,0
+27,112.92,Two year,No,0
+51,118.1,Month-to-month,Fiber optic,0
+11,24.23,Month-to-month,Fiber optic,1
+17,64.49,Month-to-month,Fiber optic,0
+43,74.7,Month-to-month,DSL,0
+48,34.67,Month-to-month,DSL,0
+8,53.63,One year,Fiber optic,0
+37,118.76,Two year,Fiber optic,0
+26,21.62,One year,Fiber optic,0
+36,65.25,Month-to-month,No,0
+69,104.27,Month-to-month,DSL,0
+5,52.39,Two year,DSL,0
+72,67.98,Two year,DSL,0
+32,117.8,Month-to-month,DSL,1
+56,67.49,Two year,Fiber optic,0
+30,33.09,Month-to-month,No,0
+22,25.17,Two year,No,0
+56,114.54,Two year,Fiber optic,0
+50,46.58,One year,Fiber optic,0
+10,70.41,Month-to-month,DSL,1
+51,29.07,One year,Fiber optic,0
+54,62.37,Month-to-month,DSL,0
+28,113.01,One year,No,1
+67,70.24,Month-to-month,Fiber optic,1
+46,117.11,One year,DSL,0
+24,45.88,Two year,DSL,0
+0,70.45,Month-to-month,DSL,0
+49,105.95,Month-to-month,No,0
+15,64.83,One year,DSL,0
+55,47.95,Month-to-month,DSL,0
+38,105.55,Month-to-month,DSL,1
+34,58.99,Month-to-month,No,0
+11,73.07,Month-to-month,Fiber optic,1
+51,117.65,One year,Fiber optic,1
+12,38.65,One year,Fiber optic,1
+30,50.14,Month-to-month,DSL,0
+61,23.11,Month-to-month,No,0
+67,59.18,Month-to-month,DSL,0
+72,40.02,Month-to-month,DSL,0
+69,88.0,One year,Fiber optic,1
+40,38.13,Month-to-month,DSL,0
+14,87.48,Month-to-month,DSL,1
+61,46.35,Two year,No,0
+58,55.52,Month-to-month,Fiber optic,0
+72,54.89,One year,DSL,0
+47,91.68,Month-to-month,DSL,0
+10,66.65,Month-to-month,Fiber optic,1
+36,56.13,Month-to-month,DSL,0
+32,105.26,One year,DSL,1
+61,77.2,Two year,Fiber optic,0
+28,41.38,Month-to-month,Fiber optic,0
+23,110.01,Month-to-month,No,1
+5,54.27,Month-to-month,Fiber optic,0
+60,23.9,One year,DSL,0
+55,69.46,One year,Fiber optic,0
+3,32.39,One year,Fiber optic,0
+31,43.85,Two year,DSL,0
+35,94.71,Month-to-month,Fiber optic,1
+34,33.08,One year,DSL,0
+67,100.69,One year,No,0
+10,113.69,Month-to-month,No,0
+22,80.65,Two year,Fiber optic,0
+13,91.04,Month-to-month,No,1
+17,91.36,One year,No,0
+66,119.28,One year,DSL,0
+68,54.15,Two year,Fiber optic,0
+3,36.29,Month-to-month,Fiber optic,1
+46,71.92,Month-to-month,DSL,0
+16,73.32,Two year,Fiber optic,0
+14,37.79,One year,DSL,0
+21,81.31,Month-to-month,No,0
+14,21.41,One year,Fiber optic,1
+35,112.77,Month-to-month,Fiber optic,0
+72,46.46,One year,Fiber optic,0
+42,23.96,Two year,DSL,0
+52,30.82,Month-to-month,No,0
+36,44.02,Month-to-month,DSL,0
+1,47.39,Two year,DSL,0
+6,23.28,One year,Fiber optic,0
+19,47.94,Two year,Fiber optic,0
+17,39.29,Month-to-month,DSL,1
+61,57.86,Two year,DSL,0
+61,58.52,Month-to-month,DSL,0
+62,53.9,Month-to-month,DSL,0
+46,52.79,Month-to-month,DSL,0
+40,28.97,One year,Fiber optic,0
+47,22.52,Two year,DSL,0
+29,40.21,One year,DSL,0
+48,95.66,One year,Fiber optic,0
+57,119.08,Month-to-month,Fiber optic,0
+55,112.85,Month-to-month,DSL,0
+44,70.42,Month-to-month,DSL,1
+4,73.18,Month-to-month,DSL,1
+52,51.46,Month-to-month,No,0
+26,97.39,Two year,DSL,1
+54,96.48,One year,DSL,0
+39,104.43,One year,Fiber optic,1
+64,109.55,Month-to-month,DSL,0
+24,63.43,Month-to-month,DSL,1
+67,96.69,Month-to-month,DSL,0
+61,100.64,Month-to-month,Fiber optic,1
+24,50.85,Month-to-month,Fiber optic,0
+35,112.92,Month-to-month,Fiber optic,1
+38,29.43,Month-to-month,Fiber optic,1
+56,119.43,One year,DSL,0
+50,97.01,Month-to-month,No,0
+62,29.33,Month-to-month,Fiber optic,1
+27,85.62,Month-to-month,No,0
+36,23.42,Month-to-month,Fiber optic,0
+31,97.02,Month-to-month,Fiber optic,1
+66,99.92,Month-to-month,DSL,0
+22,80.24,One year,Fiber optic,0
+42,105.69,Month-to-month,DSL,0
+8,29.79,Two year,Fiber optic,0
+62,47.59,Month-to-month,DSL,0
+28,61.42,Month-to-month,DSL,1
+24,24.25,Month-to-month,No,0
+42,64.82,Month-to-month,Fiber optic,1
+36,46.52,Month-to-month,Fiber optic,0
+61,59.27,Two year,DSL,0
+38,62.51,Month-to-month,Fiber optic,1
+37,107.94,One year,No,0
+7,47.03,Month-to-month,Fiber optic,0
+1,109.37,Month-to-month,Fiber optic,1
+29,62.6,Month-to-month,Fiber optic,0
+72,52.78,Month-to-month,DSL,0
+66,70.25,Month-to-month,Fiber optic,0
+45,61.77,Two year,No,0
+46,45.74,One year,Fiber optic,0
+28,70.27,Two year,Fiber optic,0
+12,35.18,Month-to-month,Fiber optic,1
+0,55.19,One year,Fiber optic,1
+24,76.58,One year,No,0
+23,61.34,One year,Fiber optic,0
+13,102.39,Two year,Fiber optic,0
+18,45.67,One year,Fiber optic,0
+1,116.98,Two year,Fiber optic,1
+44,98.47,One year,DSL,0
+67,116.76,Month-to-month,Fiber optic,0
+50,103.81,One year,No,0
+32,34.21,Month-to-month,Fiber optic,1
+30,72.65,Two year,DSL,0
+22,37.0,Two year,Fiber optic,0
+10,101.82,Month-to-month,Fiber optic,1
+43,78.42,Month-to-month,DSL,0
+41,46.34,Month-to-month,Fiber optic,0
+0,112.96,Month-to-month,Fiber optic,1
+30,31.52,Month-to-month,No,0
+20,76.39,One year,DSL,0
+12,92.1,One year,DSL,1
+51,25.88,Two year,Fiber optic,0
+38,79.79,Month-to-month,DSL,0
+46,101.59,Month-to-month,Fiber optic,1
+52,26.75,Month-to-month,Fiber optic,0
+71,71.22,Two year,DSL,0
+58,45.86,Month-to-month,Fiber optic,0
+45,86.29,Month-to-month,No,1
+64,31.87,Month-to-month,Fiber optic,1
+34,113.71,Two year,Fiber optic,0
+71,109.47,Month-to-month,Fiber optic,1
+55,38.6,One year,DSL,0
+47,52.33,One year,DSL,0
+65,78.76,One year,Fiber optic,0
+37,91.81,Month-to-month,Fiber optic,1
+52,64.27,Month-to-month,DSL,0
+20,35.63,Month-to-month,DSL,0
+70,30.42,Month-to-month,No,0
+45,119.98,One year,DSL,0
+57,65.54,Month-to-month,Fiber optic,0
+33,107.25,Month-to-month,Fiber optic,1
+63,68.24,Month-to-month,Fiber optic,0
+5,112.24,One year,DSL,1
+8,28.78,Month-to-month,DSL,1
+37,31.4,One year,Fiber optic,0
+53,112.96,Month-to-month,Fiber optic,0
+59,114.75,Two year,DSL,0
+32,51.47,One year,Fiber optic,0
+47,55.52,Month-to-month,Fiber optic,1
+40,65.25,Month-to-month,DSL,0
+70,61.62,Month-to-month,Fiber optic,0
+47,39.0,Month-to-month,DSL,0
+30,109.84,Month-to-month,Fiber optic,1
+70,45.33,Two year,DSL,0
+7,90.53,One year,Fiber optic,0
+71,26.72,Month-to-month,DSL,0
+11,23.88,One year,Fiber optic,0
+21,85.37,Month-to-month,Fiber optic,1
+59,53.9,Two year,No,0
+53,85.55,Month-to-month,Fiber optic,1
+70,29.4,One year,No,0
+54,114.99,One year,DSL,0
+46,94.85,Month-to-month,Fiber optic,0
+25,107.63,Month-to-month,DSL,1
+0,33.65,Month-to-month,Fiber optic,0
+9,52.02,Two year,Fiber optic,0
+21,56.83,Month-to-month,No,0
+2,73.72,One year,Fiber optic,1
+37,49.69,One year,Fiber optic,1
+56,26.06,Two year,DSL,0
+70,56.89,Month-to-month,DSL,0
+35,45.45,Month-to-month,Fiber optic,1
+63,58.59,One year,DSL,0
+71,39.7,Month-to-month,DSL,0
+62,46.19,Two year,No,0
+33,82.7,Month-to-month,No,1
+23,58.82,Month-to-month,Fiber optic,1
+71,54.54,Two year,Fiber optic,0
+17,73.39,Month-to-month,No,1
+30,97.19,Month-to-month,DSL,1
+5,57.89,Month-to-month,Fiber optic,0
+57,78.75,Month-to-month,Fiber optic,0
+47,116.62,Two year,No,0
+6,72.2,Month-to-month,No,1
+16,110.98,Month-to-month,Fiber optic,1
+40,99.37,Month-to-month,DSL,1
+39,25.87,Two year,Fiber optic,0
+58,62.91,Month-to-month,DSL,0
+19,89.83,Two year,No,0
+67,118.67,Two year,DSL,0
+32,65.84,Month-to-month,DSL,0
+60,29.28,Two year,Fiber optic,0
+17,76.2,One year,Fiber optic,0
+2,32.66,Month-to-month,No,0
+4,95.15,Month-to-month,DSL,0
+27,70.77,Two year,No,0
+69,92.34,One year,DSL,0
+3,106.94,One year,DSL,1
+26,82.89,Two year,Fiber optic,0
+7,81.24,Month-to-month,DSL,1
+68,95.46,Two year,Fiber optic,0
+49,104.25,Two year,DSL,0
+55,106.91,Month-to-month,DSL,1
+52,23.64,Month-to-month,Fiber optic,0
+47,75.62,Month-to-month,DSL,0
+56,41.63,Two year,Fiber optic,0
+0,106.03,Month-to-month,Fiber optic,0
+63,84.84,One year,DSL,0
+54,62.02,Month-to-month,Fiber optic,0
+53,38.81,Month-to-month,DSL,0
+28,53.9,One year,Fiber optic,0
+58,90.38,Month-to-month,DSL,0
+27,40.44,Two year,No,0
+3,29.36,Month-to-month,Fiber optic,1
+66,108.8,Two year,Fiber optic,0
+17,96.42,Month-to-month,No,0
+7,39.98,Two year,DSL,0
+45,49.23,One year,No,0
+17,117.21,Month-to-month,Fiber optic,1
+62,90.82,Month-to-month,No,0
+32,81.05,Month-to-month,No,0
+0,50.76,One year,No,1
+69,49.91,Two year,DSL,0
+37,23.95,Month-to-month,Fiber optic,0
+19,92.85,Month-to-month,No,0
+49,24.32,One year,Fiber optic,0
+38,20.49,Month-to-month,DSL,1
+2,92.95,One year,No,1
+55,114.89,Month-to-month,DSL,0
+29,95.65,One year,Fiber optic,1
+51,67.16,Two year,Fiber optic,0
+65,68.6,Month-to-month,DSL,0
+44,63.61,Month-to-month,Fiber optic,0
+49,52.46,Month-to-month,DSL,1
+18,72.17,One year,Fiber optic,0
+17,63.12,Month-to-month,No,0
+30,79.82,Two year,DSL,0
+62,109.81,One year,Fiber optic,0
+38,119.5,Month-to-month,DSL,0
+25,27.87,One year,No,0
+56,58.47,Month-to-month,No,1
+62,38.07,Two year,DSL,0
+65,55.21,Month-to-month,Fiber optic,0
+21,48.75,One year,Fiber optic,0
+51,37.45,Two year,Fiber optic,0
+43,96.41,One year,Fiber optic,0
+32,69.63,Two year,Fiber optic,0
+28,111.92,Month-to-month,Fiber optic,1
+8,23.26,Two year,DSL,1
+20,26.7,One year,Fiber optic,0
+40,60.33,One year,No,0
+64,28.03,Month-to-month,DSL,0
+63,46.27,Month-to-month,Fiber optic,0
+13,118.6,One year,DSL,1
+49,40.9,Month-to-month,No,0
+6,39.81,One year,Fiber optic,0
+49,77.36,Two year,Fiber optic,0
+24,69.8,Two year,DSL,0
+32,78.04,Month-to-month,Fiber optic,1
+52,57.67,Two year,No,0
+31,102.68,Month-to-month,Fiber optic,1
+58,33.86,Month-to-month,Fiber optic,0
+38,62.84,Two year,Fiber optic,0
+72,88.98,Month-to-month,Fiber optic,0
+46,106.82,Month-to-month,Fiber optic,0
+21,56.96,Month-to-month,DSL,1
+56,76.77,Month-to-month,DSL,0
+29,26.91,Two year,Fiber optic,0
+38,37.03,Month-to-month,No,0
+9,26.91,Month-to-month,No,0
+8,92.79,One year,No,0
+41,48.81,Month-to-month,Fiber optic,0
+13,92.37,One year,DSL,0
+72,26.64,Two year,Fiber optic,0
+62,106.25,One year,No,0
+51,103.55,Two year,Fiber optic,0
+53,28.89,Month-to-month,Fiber optic,1
+43,22.38,Two year,Fiber optic,0
+4,25.63,Month-to-month,Fiber optic,0
+28,105.36,Month-to-month,No,0
+36,43.47,One year,Fiber optic,0
+66,74.83,Month-to-month,Fiber optic,1
+16,62.62,Two year,DSL,0
+36,99.55,One year,Fiber optic,0
+25,68.89,Two year,DSL,0
+9,70.07,Month-to-month,No,1
+7,118.91,Month-to-month,Fiber optic,0
+26,35.01,One year,Fiber optic,1
+6,103.07,Month-to-month,DSL,1
+4,25.17,Month-to-month,Fiber optic,0
+25,67.76,One year,Fiber optic,0
+14,108.63,Two year,DSL,0
+40,86.52,One year,No,0
+1,88.52,Month-to-month,Fiber optic,0
+22,46.33,Month-to-month,Fiber optic,1
+33,61.86,One year,DSL,0
+70,56.66,Month-to-month,Fiber optic,0
+46,72.14,Month-to-month,Fiber optic,1
+64,66.22,Month-to-month,No,0
+25,52.69,Month-to-month,DSL,0
+32,50.55,Month-to-month,No,0
+30,45.09,Month-to-month,Fiber optic,1
+64,56.5,One year,DSL,0
+70,34.99,Month-to-month,DSL,0
+70,107.21,One year,DSL,0
+54,80.21,Month-to-month,No,0
+36,33.38,Two year,DSL,0
+39,89.39,Month-to-month,Fiber optic,1
+71,104.77,Month-to-month,Fiber optic,0
+20,43.75,Month-to-month,No,0
+25,35.06,Month-to-month,Fiber optic,1
+65,20.86,Month-to-month,Fiber optic,0
+28,24.73,Two year,DSL,0
+17,96.23,Two year,No,0
+40,118.72,Month-to-month,DSL,0
+23,24.49,Month-to-month,DSL,0
+65,94.81,One year,No,0
+66,27.19,One year,DSL,0
+22,79.21,Month-to-month,DSL,0
+38,95.61,One year,Fiber optic,0
+71,55.92,Month-to-month,DSL,0
+54,21.09,One year,DSL,0
+15,79.52,Month-to-month,Fiber optic,1
+43,119.12,Month-to-month,Fiber optic,1
+45,45.76,Month-to-month,Fiber optic,0
+47,38.95,One year,DSL,0
+1,32.39,Month-to-month,Fiber optic,0
+21,75.53,One year,No,0
+62,79.64,One year,DSL,0
+17,99.23,One year,DSL,1
+21,95.31,Month-to-month,DSL,1
+23,109.25,Month-to-month,Fiber optic,0
+12,100.58,Month-to-month,DSL,0
+11,44.73,One year,Fiber optic,0
+25,75.59,Two year,No,0
+63,49.74,Month-to-month,DSL,0
+0,52.98,Two year,Fiber optic,0
+20,113.19,Month-to-month,DSL,1
+4,88.19,Month-to-month,DSL,1
+40,117.46,Month-to-month,Fiber optic,1
+18,61.69,One year,Fiber optic,0
+57,73.74,Month-to-month,No,0
+42,68.71,Month-to-month,Fiber optic,1
+57,30.73,One year,DSL,0
+46,43.67,Month-to-month,Fiber optic,0
+32,72.76,Month-to-month,DSL,0
+62,26.74,Month-to-month,No,0
+34,113.15,Month-to-month,Fiber optic,1
+69,32.38,Month-to-month,DSL,0
+72,39.8,Month-to-month,Fiber optic,0
+42,96.53,One year,Fiber optic,0
+49,29.69,Month-to-month,Fiber optic,0
+18,110.03,One year,DSL,1
+59,92.57,Month-to-month,DSL,0
+49,26.86,Month-to-month,DSL,0
+65,89.18,Month-to-month,Fiber optic,1
+19,83.16,Month-to-month,Fiber optic,0
+57,95.73,Month-to-month,DSL,0
+34,102.82,Month-to-month,Fiber optic,1
+13,91.84,Two year,Fiber optic,1
+12,78.62,Two year,DSL,0
+41,52.25,Month-to-month,No,0
+23,89.73,One year,Fiber optic,0
+7,115.7,One year,Fiber optic,0
+31,78.75,Two year,Fiber optic,0
+47,86.43,Month-to-month,DSL,0
+23,63.71,Month-to-month,No,0
+69,95.61,Month-to-month,Fiber optic,1
+56,119.77,Month-to-month,Fiber optic,0
+37,36.04,Month-to-month,No,0
+68,40.24,Two year,No,0
+31,73.94,Two year,No,0
+10,68.14,Month-to-month,DSL,0
+2,77.16,Month-to-month,DSL,1
+68,24.91,Month-to-month,Fiber optic,0
+70,60.43,Month-to-month,Fiber optic,0
+53,78.3,One year,Fiber optic,1
+7,78.52,Month-to-month,Fiber optic,0
+21,85.73,Two year,DSL,0
+2,92.02,Two year,DSL,1
+3,84.15,One year,Fiber optic,1
+17,99.02,One year,DSL,0
+41,82.48,Month-to-month,Fiber optic,1
+4,73.75,Month-to-month,Fiber optic,1
+71,80.62,Month-to-month,Fiber optic,0
+33,30.12,One year,Fiber optic,0
+19,47.32,Month-to-month,Fiber optic,0
+37,72.74,Two year,Fiber optic,0
+57,107.3,Month-to-month,DSL,0
+22,87.91,Month-to-month,Fiber optic,1
+3,29.04,Month-to-month,Fiber optic,0
+3,79.23,Two year,DSL,0
+62,42.17,Month-to-month,Fiber optic,0
+8,93.4,Month-to-month,No,1
+46,102.74,Month-to-month,DSL,0
+28,79.35,One year,Fiber optic,0
+56,79.14,Two year,No,0
+4,53.86,Month-to-month,No,1
+65,64.63,Two year,Fiber optic,0
+50,106.41,Month-to-month,Fiber optic,0
+32,92.33,One year,No,0
+15,71.98,Month-to-month,Fiber optic,1
+71,56.82,Month-to-month,DSL,0
+22,25.04,One year,DSL,0
+35,34.3,Month-to-month,Fiber optic,0
+28,39.3,Month-to-month,Fiber optic,0
+16,57.34,Two year,DSL,0
+30,114.41,Two year,DSL,0
+11,70.52,Month-to-month,Fiber optic,1
+0,43.48,One year,Fiber optic,1
+21,30.58,One year,No,0
+8,53.83,Month-to-month,Fiber optic,1
+30,101.57,Two year,No,0
+62,58.33,Month-to-month,No,0
+11,97.25,One year,DSL,0
+0,100.27,Month-to-month,Fiber optic,1
+8,31.08,Month-to-month,DSL,0
+37,80.87,Month-to-month,No,0
+20,115.91,Month-to-month,DSL,1
+35,60.21,Two year,Fiber optic,0
+2,25.09,Two year,No,0
+24,112.33,Month-to-month,DSL,0
+29,108.37,Month-to-month,No,0
+31,72.21,Month-to-month,DSL,0
+40,75.23,Month-to-month,Fiber optic,1
+56,41.17,Month-to-month,Fiber optic,0
+34,101.95,Two year,Fiber optic,0
+61,69.86,One year,Fiber optic,1
+38,23.39,Month-to-month,No,1
+19,88.3,Month-to-month,DSL,0
+16,115.05,One year,Fiber optic,1
+23,102.92,Month-to-month,No,0
+43,47.72,Month-to-month,Fiber optic,0
+17,25.33,Month-to-month,DSL,1
+66,114.04,Month-to-month,No,0
+35,113.71,Month-to-month,DSL,1
+63,73.24,One year,Fiber optic,0
+49,84.23,Month-to-month,Fiber optic,0
+24,66.26,One year,Fiber optic,1
+16,61.98,Month-to-month,DSL,0
+54,31.94,Two year,DSL,0
+24,29.68,Month-to-month,Fiber optic,0
+18,43.27,Month-to-month,DSL,0
+67,103.66,Month-to-month,Fiber optic,0
+35,34.58,Month-to-month,Fiber optic,0
+3,42.67,Month-to-month,Fiber optic,1
+36,74.86,One year,DSL,0
+33,41.51,Month-to-month,DSL,1
+63,36.32,Month-to-month,No,0
+51,76.33,Month-to-month,Fiber optic,1
+13,56.81,One year,DSL,0
+10,82.62,Two year,DSL,0
+44,111.22,One year,DSL,1
+3,35.1,One year,No,0
+23,111.34,One year,DSL,0
+10,110.25,One year,DSL,0
+1,102.91,Month-to-month,Fiber optic,1
+67,83.13,One year,DSL,0
+6,82.01,One year,DSL,0
+0,83.92,Month-to-month,No,1
+68,89.05,One year,Fiber optic,0
+13,21.65,Month-to-month,DSL,0
+59,115.81,Month-to-month,Fiber optic,0
+2,78.56,Month-to-month,DSL,1
+11,98.15,One year,DSL,1
+8,57.73,Two year,Fiber optic,0
+51,21.24,Month-to-month,Fiber optic,1
+45,70.97,Month-to-month,Fiber optic,1
+34,70.72,Month-to-month,No,1
+17,63.7,Month-to-month,DSL,1
+6,53.97,Two year,No,0
+41,44.98,Month-to-month,Fiber optic,0
+16,72.75,Month-to-month,DSL,1
+43,57.53,Month-to-month,No,0
+50,116.99,Two year,DSL,0
+62,37.29,Month-to-month,Fiber optic,0
+36,51.97,One year,Fiber optic,0
+0,49.4,Month-to-month,DSL,0
+20,74.33,Month-to-month,No,0
+62,69.93,One year,DSL,0
+38,84.37,Month-to-month,No,0
+45,115.0,One year,DSL,0
+33,48.52,Month-to-month,DSL,0
+11,89.28,One year,Fiber optic,1
+65,22.5,One year,No,0
+56,46.24,One year,DSL,0
+72,66.37,Month-to-month,No,0
+62,23.1,One year,DSL,0
+21,81.77,Two year,Fiber optic,0
+18,87.83,Month-to-month,Fiber optic,1
+18,94.67,Month-to-month,DSL,0
+67,71.66,Two year,No,0
+40,80.39,Month-to-month,Fiber optic,1
+33,59.61,One year,Fiber optic,0
+70,24.13,One year,Fiber optic,0
+44,30.0,Month-to-month,Fiber optic,0
+66,85.5,One year,Fiber optic,0
+71,119.56,One year,No,0
+5,21.58,Month-to-month,Fiber optic,0
+26,75.76,Two year,Fiber optic,0
+53,95.1,Month-to-month,Fiber optic,0
+59,102.68,Month-to-month,Fiber optic,1
+10,74.52,Two year,Fiber optic,0
+23,81.99,Month-to-month,Fiber optic,1
+40,89.67,Two year,Fiber optic,1
+58,105.9,Month-to-month,Fiber optic,1
+8,32.23,Month-to-month,No,0
+43,112.62,Month-to-month,No,1
+21,22.6,One year,No,0
+15,103.62,One year,Fiber optic,1
+37,27.67,Two year,Fiber optic,0
+30,39.46,Two year,DSL,1
+46,20.39,One year,Fiber optic,0
+23,64.53,One year,DSL,0
+60,53.44,Month-to-month,DSL,0
+5,36.6,Two year,No,0
+62,65.11,One year,No,0
+2,60.24,Two year,Fiber optic,0
+53,96.77,Month-to-month,DSL,0
+25,109.31,Month-to-month,Fiber optic,1
+27,85.26,One year,Fiber optic,0
+1,32.44,Month-to-month,No,0
+51,49.54,Month-to-month,No,1
+12,111.33,Two year,DSL,0
+48,28.87,Month-to-month,DSL,0
+52,60.69,Month-to-month,DSL,0
+61,114.25,Month-to-month,DSL,0
+51,115.07,Month-to-month,Fiber optic,1
+22,61.12,One year,DSL,0
+53,86.74,Two year,DSL,0
+60,65.67,Two year,DSL,0
+23,95.35,One year,DSL,0
+9,23.16,One year,Fiber optic,0
+64,34.42,Month-to-month,DSL,0
+10,81.42,Two year,No,0
+43,43.26,Month-to-month,DSL,0
+17,86.61,Month-to-month,DSL,1
+9,55.12,Two year,DSL,0
+56,108.66,Two year,Fiber optic,0
+10,101.93,Month-to-month,DSL,0
+48,69.28,One year,Fiber optic,0
+50,97.29,Month-to-month,DSL,1
+4,47.11,Month-to-month,No,1
+12,69.43,Month-to-month,DSL,0
+57,39.75,Month-to-month,Fiber optic,0
+37,106.09,Month-to-month,No,0
+8,102.31,Month-to-month,DSL,1
+72,110.21,Month-to-month,DSL,0
+19,107.75,Month-to-month,No,0
+0,115.96,Two year,DSL,0
+67,42.83,One year,DSL,0
+1,113.18,Two year,Fiber optic,0
+40,77.12,Month-to-month,DSL,0
+72,62.25,One year,No,0
+42,76.04,Two year,Fiber optic,0
+42,54.26,Month-to-month,Fiber optic,0
+28,48.86,Month-to-month,DSL,0
+9,44.13,Month-to-month,Fiber optic,0
+41,28.24,Month-to-month,Fiber optic,0
+65,69.66,Month-to-month,DSL,0
+6,108.78,Month-to-month,No,1
+64,83.02,Month-to-month,Fiber optic,0
+30,72.1,One year,Fiber optic,1
+39,62.86,Month-to-month,DSL,0
+12,66.44,Month-to-month,DSL,1
+45,40.93,One year,Fiber optic,0
+13,102.29,Month-to-month,Fiber optic,1
+19,39.84,Month-to-month,Fiber optic,1
+52,91.66,Month-to-month,DSL,0
+3,96.0,Month-to-month,No,0
+32,77.49,Month-to-month,DSL,1
+43,106.29,Month-to-month,DSL,1
+9,49.11,Month-to-month,Fiber optic,1
+21,108.16,Two year,DSL,0
+25,92.94,Two year,DSL,0
+48,99.87,Month-to-month,DSL,1
+71,86.46,Month-to-month,No,0
+61,104.63,Month-to-month,DSL,0
+13,119.31,Two year,Fiber optic,1
+1,62.02,Two year,No,0
+3,101.39,Month-to-month,Fiber optic,0
+43,94.46,Month-to-month,Fiber optic,1
+11,65.29,Month-to-month,Fiber optic,1
+16,112.69,Two year,Fiber optic,1
+61,59.44,Two year,Fiber optic,0
+63,76.55,Month-to-month,No,0
+61,30.59,One year,Fiber optic,0
+18,42.58,Month-to-month,Fiber optic,1
+45,104.07,One year,DSL,0
+44,59.66,Two year,No,0
+13,59.41,Month-to-month,DSL,0
+40,44.6,Month-to-month,No,0
+38,69.16,One year,DSL,1
+28,100.58,Month-to-month,Fiber optic,1
+54,109.52,Two year,No,0
+49,27.01,Month-to-month,Fiber optic,0
+38,77.48,Two year,DSL,0
+52,66.73,Month-to-month,No,0
+55,81.43,Month-to-month,Fiber optic,1
+41,64.73,Month-to-month,DSL,0
+19,59.86,Month-to-month,Fiber optic,0
+55,67.19,Month-to-month,Fiber optic,1
+52,78.2,One year,Fiber optic,1
+71,70.1,Month-to-month,DSL,0
+10,67.21,Month-to-month,Fiber optic,0
+30,101.78,Month-to-month,No,0
+67,94.56,Month-to-month,DSL,0
+37,54.14,Two year,Fiber optic,0
+68,100.06,Two year,Fiber optic,0
+0,105.37,Month-to-month,No,1
+2,35.35,One year,Fiber optic,0
+58,78.27,One year,No,0
+26,48.53,Two year,DSL,0
+37,93.92,Month-to-month,Fiber optic,1
+31,43.88,Month-to-month,No,0
+29,87.14,Month-to-month,No,1
+68,45.51,Two year,Fiber optic,0
+6,71.11,One year,Fiber optic,0
+56,114.86,Month-to-month,Fiber optic,1
+64,58.13,Month-to-month,DSL,0
+47,107.57,One year,No,1
+28,118.69,Two year,No,1
+11,107.49,Month-to-month,Fiber optic,1
+49,36.59,One year,DSL,0
+34,101.97,Month-to-month,DSL,1
+10,23.21,Month-to-month,DSL,0
+26,59.33,Month-to-month,Fiber optic,1
+70,107.07,One year,Fiber optic,1
+19,88.88,Two year,DSL,0
+13,73.27,Month-to-month,Fiber optic,1
+49,58.79,Month-to-month,No,0
+14,101.23,Month-to-month,DSL,1
+67,90.96,Month-to-month,Fiber optic,0
+62,66.84,Month-to-month,Fiber optic,0
+71,109.25,Month-to-month,DSL,1
+66,42.99,Month-to-month,Fiber optic,1
+17,37.04,Month-to-month,Fiber optic,1
+15,84.28,Month-to-month,DSL,1
+25,117.2,One year,DSL,0
+34,44.73,Month-to-month,No,1
+64,44.97,One year,DSL,0
+53,33.95,Two year,Fiber optic,0
+47,106.06,One year,Fiber optic,1
+64,42.64,Month-to-month,No,1
+47,70.32,Month-to-month,Fiber optic,1
+27,119.09,One year,No,1
+30,21.21,Month-to-month,Fiber optic,0
+37,75.65,Month-to-month,Fiber optic,1
+6,71.23,Month-to-month,Fiber optic,0
+54,100.74,Month-to-month,Fiber optic,0
+47,55.53,Month-to-month,Fiber optic,0
+53,61.03,One year,DSL,0
+38,36.79,Month-to-month,Fiber optic,0
+57,94.08,Month-to-month,Fiber optic,0
+69,98.47,Two year,DSL,0
+41,33.67,Month-to-month,DSL,0
+32,59.35,One year,Fiber optic,1
+7,109.29,Month-to-month,Fiber optic,1
+56,20.27,Month-to-month,No,0
+65,49.88,Two year,Fiber optic,0
+51,75.5,Month-to-month,No,0
+63,53.41,Month-to-month,Fiber optic,0
+62,47.2,Two year,DSL,0
+58,66.0,One year,No,0
+36,38.15,One year,DSL,0
+7,72.96,Month-to-month,Fiber optic,1
+0,90.67,Month-to-month,Fiber optic,1
+14,77.53,One year,DSL,0
+31,29.31,Month-to-month,Fiber optic,1
+54,104.44,Month-to-month,Fiber optic,0
+33,37.5,One year,DSL,0
+1,96.48,Month-to-month,DSL,1
+15,56.06,Month-to-month,DSL,0
+71,98.28,Month-to-month,DSL,0
+72,40.63,Month-to-month,Fiber optic,0
+27,38.67,One year,Fiber optic,0
+58,69.7,Two year,Fiber optic,0
+52,23.29,Month-to-month,Fiber optic,0
+67,42.53,Month-to-month,DSL,0
+64,92.4,Month-to-month,DSL,0
+45,103.74,Month-to-month,Fiber optic,0
+28,28.08,Month-to-month,No,0
+45,108.21,Two year,Fiber optic,1
+23,99.75,Month-to-month,DSL,1
+25,106.97,Month-to-month,Fiber optic,1
+44,89.84,Two year,No,0
+41,87.42,Month-to-month,Fiber optic,1
+42,72.51,Two year,DSL,0
+28,85.28,Month-to-month,DSL,0
+29,111.91,Month-to-month,Fiber optic,1
+0,30.05,Two year,No,0
+43,51.58,Month-to-month,Fiber optic,0
+42,27.25,Month-to-month,DSL,0
+68,114.48,Month-to-month,Fiber optic,0
+36,64.53,One year,No,0
+34,87.53,One year,Fiber optic,0
+4,104.11,Month-to-month,No,1
+14,119.1,One year,Fiber optic,1
+24,36.18,One year,DSL,1
+27,99.95,Month-to-month,Fiber optic,0
+26,108.74,Month-to-month,Fiber optic,1
+28,24.89,Month-to-month,No,0
+56,95.41,Month-to-month,Fiber optic,0
+9,55.47,Month-to-month,Fiber optic,1
+24,84.86,Month-to-month,Fiber optic,1
+11,71.4,Month-to-month,Fiber optic,0
+22,45.97,Month-to-month,Fiber optic,0
+49,33.52,One year,Fiber optic,0
+3,31.69,Month-to-month,Fiber optic,1
+24,30.33,Two year,Fiber optic,0
+1,83.78,Two year,Fiber optic,0
+69,55.14,One year,DSL,0
+53,41.66,Two year,Fiber optic,0
+17,89.19,Two year,Fiber optic,1
+14,88.68,Month-to-month,Fiber optic,1
+7,73.92,One year,Fiber optic,0
+34,113.5,Month-to-month,Fiber optic,1
+55,58.54,One year,No,0
+42,103.59,Month-to-month,Fiber optic,0
+64,27.51,Month-to-month,DSL,0
+25,93.98,Month-to-month,Fiber optic,1
+20,118.84,Two year,Fiber optic,0
+34,104.66,Month-to-month,Fiber optic,1
+14,77.97,Month-to-month,Fiber optic,1
+71,82.68,Month-to-month,Fiber optic,0
+13,55.33,Month-to-month,DSL,0
+34,87.95,Two year,Fiber optic,1
+38,97.04,One year,DSL,0
+4,119.82,Month-to-month,Fiber optic,1
+34,69.25,Month-to-month,Fiber optic,1
+33,26.13,Month-to-month,Fiber optic,1
+18,79.59,Month-to-month,Fiber optic,1
+9,31.9,Two year,No,0
+3,44.48,One year,Fiber optic,0
+0,52.88,Month-to-month,Fiber optic,1
+35,93.1,One year,No,0
+6,38.38,Month-to-month,Fiber optic,0
+70,36.58,One year,Fiber optic,0
+17,24.5,Month-to-month,DSL,0
+47,107.32,One year,DSL,0
+49,89.35,Month-to-month,DSL,0
+36,23.99,Two year,DSL,0
+64,22.83,Month-to-month,Fiber optic,0
+8,75.87,Month-to-month,DSL,1
+17,48.25,Month-to-month,Fiber optic,0
+18,79.67,Month-to-month,DSL,0
+9,63.46,Month-to-month,DSL,0
+21,112.33,One year,No,0
+22,48.78,One year,Fiber optic,0
+55,87.91,Month-to-month,No,0
+22,25.41,One year,Fiber optic,0
+63,115.59,One year,DSL,0
+56,118.08,Month-to-month,Fiber optic,0
+65,93.91,Month-to-month,Fiber optic,0
+7,66.52,Month-to-month,DSL,0
+71,42.0,Month-to-month,No,0
+44,101.25,One year,Fiber optic,1
+71,93.64,Two year,Fiber optic,0
+25,42.2,One year,Fiber optic,1
+69,65.12,Month-to-month,Fiber optic,0
+42,66.28,One year,DSL,1
+5,102.64,One year,No,0
+29,88.38,Month-to-month,Fiber optic,1
+10,84.32,Two year,DSL,1
+68,84.98,Month-to-month,DSL,0
+22,47.05,Month-to-month,Fiber optic,0
+16,57.17,Month-to-month,No,1
+40,24.57,Month-to-month,No,0
+31,98.69,Two year,Fiber optic,1
+7,63.3,Month-to-month,No,1
+59,63.82,Month-to-month,Fiber optic,1
+61,44.54,Month-to-month,DSL,0
+54,40.94,Month-to-month,Fiber optic,0
+45,78.78,Month-to-month,DSL,0
+29,43.26,Month-to-month,DSL,0
+39,26.42,One year,Fiber optic,0
+38,96.75,Month-to-month,DSL,0
+12,57.65,One year,No,0
+5,58.02,Month-to-month,No,1
+18,63.13,One year,Fiber optic,1
+33,101.5,Two year,Fiber optic,1
+11,52.08,Month-to-month,Fiber optic,1
+7,95.8,Month-to-month,DSL,1
+62,113.95,Two year,DSL,0
+27,86.09,Month-to-month,DSL,0
+42,63.17,One year,DSL,0
+38,94.78,Month-to-month,DSL,1
+53,65.79,Month-to-month,DSL,0
+54,61.44,Month-to-month,DSL,0
+21,72.53,Two year,No,0
+61,51.77,Month-to-month,DSL,0
+27,30.43,One year,DSL,0
+60,61.49,One year,Fiber optic,1
+29,32.39,Month-to-month,Fiber optic,0
+8,61.04,Month-to-month,Fiber optic,1
+55,75.69,Month-to-month,DSL,0
+2,113.07,Month-to-month,Fiber optic,1
+56,23.62,One year,Fiber optic,0
+3,82.15,Month-to-month,Fiber optic,1
+15,65.77,Month-to-month,Fiber optic,0
+44,22.03,One year,Fiber optic,1
+68,44.95,One year,Fiber optic,0
+29,31.85,Month-to-month,DSL,1
+8,41.68,One year,Fiber optic,1
+17,47.46,Month-to-month,DSL,0
+65,60.13,One year,DSL,0
+53,72.9,Month-to-month,Fiber optic,1
+7,20.1,Month-to-month,DSL,0
+28,36.19,Month-to-month,DSL,0
+19,29.36,One year,Fiber optic,0
+12,74.97,One year,Fiber optic,0
+61,52.91,Month-to-month,No,1
+45,74.84,Two year,No,0
+13,42.18,Two year,No,0
+47,22.42,Month-to-month,Fiber optic,1
+30,114.14,One year,DSL,0
+4,30.83,Month-to-month,Fiber optic,0
+32,32.69,Two year,Fiber optic,1
+13,34.65,Month-to-month,Fiber optic,0
+17,118.13,Month-to-month,DSL,1
+64,81.77,Month-to-month,DSL,0
+51,81.03,Month-to-month,DSL,1
+9,118.67,One year,DSL,1
+62,28.84,Month-to-month,DSL,0
+41,117.45,Month-to-month,No,1
+63,40.4,Month-to-month,DSL,0
+54,82.31,Two year,Fiber optic,0
+24,62.01,One year,No,0
+39,58.4,Month-to-month,Fiber optic,1
+38,113.12,Month-to-month,Fiber optic,0
+52,34.92,Month-to-month,Fiber optic,0
+18,119.71,Two year,DSL,0
+24,57.91,One year,Fiber optic,0
+17,84.88,One year,No,0
+21,116.79,Two year,Fiber optic,0
+11,25.76,Month-to-month,No,0
+2,112.29,One year,No,1
+68,76.78,Month-to-month,Fiber optic,0
+5,90.44,Month-to-month,Fiber optic,1
+64,34.92,Month-to-month,Fiber optic,0
+0,73.34,Month-to-month,Fiber optic,1
+56,87.35,Two year,Fiber optic,0
+23,65.62,Month-to-month,Fiber optic,1
+37,35.5,Two year,No,0
+20,44.41,One year,DSL,0
+35,105.44,One year,Fiber optic,1
+32,23.45,Two year,DSL,0
+38,90.89,Month-to-month,Fiber optic,0
+28,119.94,Month-to-month,Fiber optic,1
+39,20.75,Month-to-month,Fiber optic,0
+60,36.1,Month-to-month,Fiber optic,1
+31,87.41,Two year,Fiber optic,0
+26,26.0,Month-to-month,DSL,0
+9,78.98,Month-to-month,DSL,1
+26,88.4,Month-to-month,DSL,0
+9,78.81,Month-to-month,No,0
+13,56.52,One year,DSL,0
+69,89.73,Month-to-month,No,0
+6,79.43,One year,DSL,0
+35,40.76,One year,Fiber optic,0
+60,76.31,One year,Fiber optic,0
+69,108.19,Month-to-month,Fiber optic,0
+10,86.68,One year,Fiber optic,0
+11,67.18,Month-to-month,Fiber optic,0
+27,52.16,Month-to-month,No,1
+40,28.59,One year,Fiber optic,1
+70,44.46,One year,DSL,0
+15,21.12,Month-to-month,DSL,0
+12,118.66,Two year,Fiber optic,1
+18,42.25,Month-to-month,Fiber optic,1
+63,101.49,One year,Fiber optic,1
+2,36.86,Two year,Fiber optic,0
+27,48.36,Month-to-month,Fiber optic,0
+8,61.83,Two year,Fiber optic,0
+11,52.44,One year,Fiber optic,1
+66,99.84,One year,Fiber optic,0
+0,115.77,One year,Fiber optic,1
+23,107.53,One year,No,1
+66,35.36,Month-to-month,Fiber optic,0
+44,97.67,One year,No,0
+5,34.79,Month-to-month,DSL,1
+33,111.34,Two year,Fiber optic,0
+70,71.79,Month-to-month,Fiber optic,0
+29,53.64,Month-to-month,Fiber optic,1
+38,35.7,Two year,DSL,0
+38,21.18,Month-to-month,Fiber optic,0
+48,44.79,Month-to-month,Fiber optic,1
+13,111.4,One year,No,0
+61,99.73,Month-to-month,Fiber optic,1
+72,116.98,Month-to-month,DSL,0
+10,30.08,Month-to-month,Fiber optic,0
+59,79.22,Month-to-month,Fiber optic,0
+59,45.72,Month-to-month,DSL,0
+54,74.29,Month-to-month,Fiber optic,1
+27,52.05,Month-to-month,Fiber optic,0
+34,48.35,Month-to-month,DSL,0
+61,77.38,Month-to-month,Fiber optic,0
+11,38.33,One year,Fiber optic,0
+60,66.91,One year,Fiber optic,0
+67,85.08,Month-to-month,Fiber optic,0
+49,32.82,Month-to-month,DSL,0
+24,113.06,Two year,No,1
+40,70.57,One year,Fiber optic,0
+3,101.95,Month-to-month,DSL,1
+68,85.39,Month-to-month,No,1
+24,91.0,Month-to-month,DSL,0
+4,91.61,Two year,Fiber optic,0
+57,107.51,Two year,Fiber optic,0
+48,81.36,Two year,No,0
+45,47.82,Month-to-month,No,0
+3,29.95,Month-to-month,DSL,0
+54,80.63,Month-to-month,Fiber optic,0
+46,26.64,Month-to-month,DSL,0
+57,44.13,Month-to-month,Fiber optic,0
+60,26.07,One year,Fiber optic,0
+15,74.89,Month-to-month,DSL,0
+15,36.03,Two year,DSL,1
+67,81.04,Month-to-month,DSL,0
+38,99.09,Month-to-month,DSL,0
+31,102.19,Two year,DSL,0
+20,50.95,One year,No,0
+46,74.9,Month-to-month,Fiber optic,1
+55,76.3,One year,Fiber optic,0
+0,67.29,Month-to-month,No,0
+40,85.51,Month-to-month,Fiber optic,0
+72,41.01,Month-to-month,Fiber optic,0
+20,117.92,Month-to-month,No,0
+20,29.81,One year,Fiber optic,0

@@ -1,0 +1,27 @@
+%% Component Diagram — architecture of the Streamlit Churn App.
+flowchart LR
+    User(["👤 User<br/>(Browser)"])
+
+    subgraph App["streamlit_app.py"]
+        Nav["st.navigation"]
+        Dash["views/dashboard.py"]
+        Agent["views/agent.py"]
+    end
+
+    subgraph Core["Core Modules"]
+        Utils["model_utils.py<br/>@st.cache_resource"]
+        Train["train_model.py"]
+    end
+
+    Model[("model.pkl")]
+    Data[("customers.csv")]
+    Ollama{{"Ollama LLM<br/>(localhost:11434)"}}
+
+    User -->|HTTP| Nav
+    Nav --> Dash
+    Nav --> Agent
+    Dash --> Utils
+    Utils --> Model
+    Utils --> Data
+    Train --> Model
+    Agent -->|chat| Ollama

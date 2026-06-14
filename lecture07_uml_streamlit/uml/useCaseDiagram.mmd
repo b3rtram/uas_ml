@@ -1,0 +1,20 @@
+%% Use Case Diagram — Mermaid has no native type, so we approximate it with a flowchart.
+%% Actor on the left as a stick figure (Unicode), use cases as rounded "ovals".
+flowchart LR
+    User(("👤<br/>Analyst"))
+    Admin(("👤<br/>Admin"))
+
+    subgraph ChurnApp["Churn ML App"]
+        UC1([Enter customer data])
+        UC2([View churn probability])
+        UC3([Check confidence])
+        UC4([Chat with agent])
+        UC5([Retrain model])
+    end
+
+    User --> UC1
+    User --> UC2
+    User --> UC3
+    User --> UC4
+    Admin --> UC5
+    UC2 -. include .-> UC3

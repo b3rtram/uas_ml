@@ -1,0 +1,50 @@
+flowchart TB
+    user([👤 Nutzer:in])
+
+    subgraph streamlit["🖥️ Streamlit-App (app.py · st.navigation)"]
+        form["form_page.py<br/><i>Seite 1 – Formular</i>"]
+        chat["chat_page.py<br/><i>Seite 2 – Chat-UI</i>"]
+    end
+
+    subgraph discordcomp["🤖 Discord-Bot"]
+        bot["discord_bot.py<br/><i>Gateway-Client</i>"]
+    end
+
+    subgraph core["⚙️ Geteilter Kern"]
+        agent["agent.py<br/><i>run_agent · TOOL_SPEC · Prompt</i>"]
+        svc["model_service.py<br/><i>load_artifact · get_schema · predict_income</i>"]
+    end
+
+    model[("📦 adult_income_model.joblib<br/><i>Pipeline + Metadaten</i>")]
+    nb["📓 eda_adult.ipynb<br/><i>Training</i>"]
+
+    ollama{{"🦙 Ollama-Server<br/>gemma4 (Tool-Calling)"}}
+    gateway{{"💬 Discord Gateway"}}
+    env[/".env<br/>DISCORD_BOT_TOKEN"/]
+
+    %% Nutzerzugänge
+    user -->|"Browser"| streamlit
+    user -->|"DM / @mention"| gateway
+
+    %% Training -> Artefakt
+    nb -->|"trainiert &amp; speichert"| model
+
+    %% UI -> Kern
+    form -->|"predict_income()"| svc
+    chat -->|"run_agent()"| agent
+    bot  -->|"run_agent()"| agent
+
+    %% Kern intern / extern
+    agent -->|"predict_income() (Tool)"| svc
+    agent -->|"get_schema() → Tool-Schema"| svc
+    agent -->|"ollama.chat(tools=…)"| ollama
+    svc  -->|"lädt"| model
+
+    %% Bot-Anbindung
+    bot <-->|"WebSocket (ausgehend)"| gateway
+    env -.->|"Token"| bot
+
+    classDef external fill:#fde68a,stroke:#b45309,color:#000;
+    classDef artifact fill:#bfdbfe,stroke:#1e40af,color:#000;
+    class ollama,gateway,env external;
+    class model,nb artifact;

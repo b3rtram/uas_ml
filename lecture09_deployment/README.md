@@ -3,6 +3,8 @@
 Fortführung von Lecture 08 (`eda_adult.ipynb`): Wir trainieren das beste Modell,
 speichern es und stellen es in einer **Streamlit-App mit zwei Seiten** bereit.
 
+> 📐 Architekturüberblick (Komponentendiagramm): siehe [ARCHITECTURE.md](ARCHITECTURE.md).
+
 ## Inhalt
 
 | Datei | Zweck |

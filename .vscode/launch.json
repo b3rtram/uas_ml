@@ -1,0 +1,25 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Streamlit: app.py",
+      "type": "debugpy",
+      "request": "launch",
+      "python": "${workspaceFolder}/.venv/bin/python",
+      "module": "streamlit",
+      "args": ["run", "app.py"],
+      "cwd": "${workspaceFolder}/lecture09_deployment",
+      "console": "integratedTerminal",
+      "justMyCode": true
+    },
+    {
+      "name": "Discord bot",
+      "type": "debugpy",
+      "request": "launch",
+      "python": "${workspaceFolder}/.venv/bin/python",
+      "program": "${workspaceFolder}/lecture09_deployment/discord_bot.py",
+      "cwd": "${workspaceFolder}/lecture09_deployment",
+      "console": "integratedTerminal"
+    }
+  ]
+}

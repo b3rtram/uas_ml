@@ -1,0 +1,35 @@
+classDiagram
+    class FormPage {
+        <<component>>
+    }
+    class ChatPage {
+        <<component>>
+    }
+    class DiscordBot {
+        <<component>>
+    }
+    class Agent {
+        <<component>>
+    }
+    class ModelService {
+        <<component>>
+    }
+    class Model {
+        <<artifact>>
+    }
+    class Ollama {
+        <<external>>
+    }
+
+    class IPredict {
+        <<interface>>
+    }
+
+    ModelService ..|> IPredict : provides
+    FormPage ..> IPredict : requires
+    Agent ..> IPredict : requires
+
+    ChatPage ..> Agent : uses
+    DiscordBot ..> Agent : uses
+    Agent ..> Ollama : calls
+    ModelService ..> Model : loads

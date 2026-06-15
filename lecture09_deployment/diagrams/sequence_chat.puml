@@ -1,0 +1,21 @@
+@startuml
+title Lecture 09 - Chat / Tool-Calling Sequence
+
+actor User
+participant "Chat / Bot" as UI
+participant "agent.py" as Agent
+participant "Ollama" as Ollama
+participant "Model" as Model
+
+User -> UI : question
+UI -> Agent : run_agent()
+Agent -> Ollama : chat with tools
+Ollama --> Agent : call predict_income
+Agent -> Model : predict_income()
+Model --> Agent : prediction + probability
+Agent -> Ollama : send tool result
+Ollama --> Agent : final answer
+Agent --> UI : answer
+UI --> User : answer
+
+@enduml

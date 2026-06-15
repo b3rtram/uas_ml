@@ -1,0 +1,27 @@
+@startuml
+title Lecture 09 - Component Diagram
+
+component "Form page" as Form
+component "Chat page" as Chat
+component "Discord bot" as Bot
+component "agent.py" as Agent
+component "model_service.py" as Service
+component "Ollama / gemma4" as Ollama
+artifact  "Model .joblib" as Model
+
+interface "predict_income" as IPredict
+
+' provided interface (lollipop)
+Service -- IPredict
+
+' required interfaces
+Form  ..> IPredict : requires
+Agent ..> IPredict : requires
+
+' other dependencies
+Chat ..> Agent  : uses
+Bot  ..> Agent  : uses
+Agent ..> Ollama : calls
+Service ..> Model : loads
+
+@enduml

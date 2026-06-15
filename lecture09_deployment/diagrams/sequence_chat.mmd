@@ -1,23 +1,17 @@
 sequenceDiagram
-    autonumber
-    actor U as Nutzer:in
-    participant UI as Chat-UI / Discord-Bot
-    participant AG as agent.run_agent
-    participant OL as Ollama (gemma4)
-    participant MS as model_service.predict_income
-    participant M as Modell-Pipeline (joblib)
+    actor User
+    participant UI as Chat / Bot
+    participant Agent
+    participant Ollama
+    participant Model
 
-    U->>UI: Frage ("45, Manager, 60 Std/Woche?")
-    UI->>AG: run_agent(history)
-    AG->>OL: chat(messages, tools=[predict_income])
-    OL-->>AG: tool_call predict_income(features_json)
-
-    AG->>MS: predict_income(**features)
-    MS->>M: predict_proba(X)
-    M-->>MS: P(>50K)
-    MS-->>AG: {prediction, probability}
-
-    AG->>OL: chat(messages + tool-Ergebnis)
-    OL-->>AG: finale Antwort (Text)
-    AG-->>UI: (answer, tool_steps)
-    UI-->>U: Antwort + Wahrscheinlichkeit
+    User->>UI: question
+    UI->>Agent: run_agent()
+    Agent->>Ollama: chat with tools
+    Ollama-->>Agent: call predict_income
+    Agent->>Model: predict_income()
+    Model-->>Agent: prediction + probability
+    Agent->>Ollama: send tool result
+    Ollama-->>Agent: final answer
+    Agent-->>UI: answer
+    UI-->>User: answer

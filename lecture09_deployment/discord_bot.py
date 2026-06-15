@@ -76,7 +76,7 @@ async def on_message(message: discord.Message):
 
     prompt = message.content if is_dm else _strip_mention(message)
     if not prompt:
-        await message.channel.send("Frag mich etwas zum Einkommen 🙂 (z. B. „45, Manager, 60 Std/Woche")
+        await message.channel.send("Ask me something about income 🙂 (e.g. \"45, manager, 60 hours/week\")")
         return
 
     history = histories[message.channel.id]
@@ -88,11 +88,11 @@ async def on_message(message: discord.Message):
                 run_agent, list(history), MODEL
             )
         if not answer.strip():
-            answer = "(Das Modell hat keine Textantwort geliefert.)"
+            answer = "(The model returned no text answer.)"
     except Exception as exc:
         answer = (
-            f"⚠️ Fehler beim Aufruf des Agenten: `{exc}`\n"
-            "Läuft `ollama serve` und ist das Modell vorhanden?"
+            f"⚠️ Error calling the agent: `{exc}`\n"
+            "Is `ollama serve` running and the model available?"
         )
         history.pop()  # don't keep a failed turn in memory
         await message.channel.send(answer)
@@ -106,7 +106,7 @@ async def on_message(message: discord.Message):
 def main():
     if not TOKEN:
         raise SystemExit(
-            "DISCORD_BOT_TOKEN ist nicht gesetzt. Trage ihn in ../.env ein."
+            "DISCORD_BOT_TOKEN is not set. Add it to ../.env."
         )
     client.run(TOKEN)
 

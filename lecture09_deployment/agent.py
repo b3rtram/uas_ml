@@ -52,14 +52,13 @@ TOOL_SPEC = {
 }
 
 SYSTEM_PROMPT = (
-    "Du bist ein freundlicher Assistent, der einschätzt, ob eine Person mehr als "
-    "50.000 $ im Jahr verdient. Rufe dafür IMMER das Tool `predict_income` auf — "
-    "rate niemals selbst. Übergib die aus dem Gespräch bekannten Merkmale (Alter, "
-    "Beruf, Wochenstunden, Bildungsjahre, Familienstand usw.) als JSON-Objekt. "
-    "Fehlende Angaben darfst du weglassen (sie werden automatisch ergänzt) — frage "
-    "nicht nach optionalen Feldern wie sex, race oder native-country. Erkläre das "
-    "Ergebnis anschließend verständlich und nenne die Wahrscheinlichkeit. Antworte "
-    "auf Deutsch."
+    "You are a friendly assistant that estimates whether a person earns more than "
+    "$50,000 per year. ALWAYS call the `predict_income` tool for this — never guess "
+    "yourself. Pass the features known from the conversation (age, occupation, "
+    "hours per week, education years, marital status, etc.) as a JSON object. You "
+    "may omit missing fields (they are imputed automatically) — do not ask for "
+    "optional fields like sex, race or native-country. Then explain the result "
+    "clearly and state the probability. Answer in English."
 )
 
 
@@ -112,7 +111,7 @@ def run_agent(history: list[dict], model: str = DEFAULT_MODEL, max_steps: int = 
             messages.append({"role": "tool", "content": json.dumps(result)})
 
     return (
-        "Ich habe zu viele Tool-Aufrufe gebraucht und stoppe hier. "
-        "Bitte formuliere die Anfrage etwas konkreter.",
+        "I needed too many tool calls and stop here. "
+        "Please phrase your request a bit more concretely.",
         tool_steps,
     )

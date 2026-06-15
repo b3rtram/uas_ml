@@ -16,8 +16,8 @@ st.set_page_config(
 )
 
 pages = [
-    st.Page("form_page.py", title="Einkommens-Vorhersage", icon="📝", default=True),
-    st.Page("chat_page.py", title="Chat-Agent (Ollama)", icon="💬"),
+    st.Page("form_page.py", title="Income prediction", icon="📝", default=True),
+    st.Page("chat_page.py", title="Chat agent (Ollama)", icon="💬"),
 ]
 
 st.navigation(pages).run()

@@ -14,26 +14,26 @@ NUM_RANGES = {
 }
 
 LABELS = {
-    "age": "Alter",
-    "education-num": "Bildungsjahre (education-num)",
-    "capital-gain": "Kapitalgewinn (capital-gain)",
-    "capital-loss": "Kapitalverlust (capital-loss)",
-    "hours-per-week": "Wochenarbeitszeit (Stunden)",
-    "workclass": "Beschäftigungsart (workclass)",
-    "marital-status": "Familienstand (marital-status)",
-    "occupation": "Beruf (occupation)",
-    "relationship": "Rolle im Haushalt (relationship)",
-    "race": "Ethnie (race)",
-    "sex": "Geschlecht (sex)",
-    "native-country": "Herkunftsland (native-country)",
+    "age": "Age",
+    "education-num": "Education (years)",
+    "capital-gain": "Capital gain",
+    "capital-loss": "Capital loss",
+    "hours-per-week": "Hours per week",
+    "workclass": "Workclass",
+    "marital-status": "Marital status",
+    "occupation": "Occupation",
+    "relationship": "Relationship",
+    "race": "Race",
+    "sex": "Sex",
+    "native-country": "Native country",
 }
 
 schema = get_schema()
 
-st.title("📝 Einkommens-Vorhersage")
+st.title("📝 Income prediction")
 st.caption(
-    "Gib die Merkmale einer Person ein. Das gespeicherte Gradient-Boosting-Modell "
-    "schätzt, ob das Jahreseinkommen über **50.000 $** liegt."
+    "Enter a person's features. The saved Gradient Boosting model estimates "
+    "whether their yearly income is above **$50,000**."
 )
 
 with st.form("income_form"):
@@ -42,7 +42,7 @@ with st.form("income_form"):
 
     # Numerical features in the left column.
     with col1:
-        st.subheader("Numerisch")
+        st.subheader("Numerical")
         for c in schema["num_cols"]:
             rng = NUM_RANGES[c]
             inputs[c] = st.number_input(
@@ -55,13 +55,13 @@ with st.form("income_form"):
 
     # Categorical features in the right column.
     with col2:
-        st.subheader("Kategorial")
+        st.subheader("Categorical")
         for c in schema["cat_cols"]:
             options = schema["cat_options"][c]
             default_idx = options.index("United-States") if c == "native-country" and "United-States" in options else 0
             inputs[c] = st.selectbox(LABELS.get(c, c), options, index=default_idx)
 
-    submitted = st.form_submit_button("Vorhersage berechnen", type="primary", use_container_width=True)
+    submitted = st.form_submit_button("Predict", type="primary", use_container_width=True)
 
 if submitted:
     result = predict_income(**inputs)
@@ -72,17 +72,17 @@ if submitted:
     left, right = st.columns([1, 1])
     with left:
         if is_high:
-            st.success("### Vorhersage: **> 50K** 💰")
+            st.success("### Prediction: **> 50K** 💰")
         else:
-            st.info("### Vorhersage: **≤ 50K**")
+            st.info("### Prediction: **≤ 50K**")
     with right:
-        st.metric("Wahrscheinlichkeit für > 50K", f"{proba:.1%}")
+        st.metric("Probability of > 50K", f"{proba:.1%}")
 
     st.progress(proba)
     st.caption(
-        "Entscheidungsschwelle 0,5. Diese Wahrscheinlichkeit ist die Modellausgabe "
-        "`predict_proba` für die Klasse `>50K`."
+        "Decision threshold 0.5. This probability is the model's `predict_proba` "
+        "output for the `>50K` class."
     )
 
-    with st.expander("Verwendete Eingaben (an das Modell übergeben)"):
+    with st.expander("Inputs used (passed to the model)"):
         st.json(result["used_features"])

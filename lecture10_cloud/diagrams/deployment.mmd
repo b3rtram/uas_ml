@@ -1,0 +1,21 @@
+flowchart TB
+    dev([👩‍💻 Entwickler:in])
+    git[("🌿 Git-Repository")]
+
+    subgraph paas["☁️ PaaS (itdone3 · Heroku-Style)"]
+        direction TB
+        build["🔨 Buildpack<br/><i>liest requirements.txt<br/>+ .python-version</i>"]
+        proxy["🔀 Reverse Proxy<br/><i>TLS · Routing</i>"]
+        web["🖥️ web-Prozess<br/><i>streamlit … --server.port=$PORT</i><br/>ENABLE_CHAT=0 → nur Formular"]
+    end
+
+    user([👤 Nutzer:in])
+
+    dev -->|"git push"| git
+    git -->|"deploy"| build
+    build -->|"startet (Procfile)"| web
+    user -->|"HTTPS"| proxy
+    proxy -->|"$PORT"| web
+
+    classDef ext fill:#fde68a,stroke:#b45309,color:#000;
+    class git ext;

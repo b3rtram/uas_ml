@@ -1,0 +1,4 @@
+# How the PaaS starts our web process.
+# The platform injects $PORT and expects the app to listen on it (0.0.0.0).
+# --headless: no "open browser" / no e-mail prompt on a server.
+web: streamlit run app.py --server.port=$PORT --server.address=0.0.0.0 --server.headless=true

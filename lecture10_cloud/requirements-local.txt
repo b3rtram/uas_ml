@@ -1,0 +1,7 @@
+# Local-only extras for the chat agent (Page 2).
+# Install on top of requirements.txt to run the Ollama chat page locally:
+#
+#     pip install -r requirements.txt -r requirements-local.txt
+#
+# Not used in the cloud build (no Ollama server on a PaaS).
+ollama==0.6.2

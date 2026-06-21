@@ -1,0 +1,12 @@
+# Cloud dependencies — everything the FORM page needs, nothing more.
+# Versions are pinned to the ones used to TRAIN the model, so the saved
+# pipeline unpickles without scikit-learn version warnings. scikit-learn is
+# the critical pin here.
+#
+# Note: `ollama` is intentionally NOT here — it only makes sense locally
+# (see requirements-local.txt). The cloud build stays small and fast.
+streamlit==1.57.0
+scikit-learn==1.8.0
+pandas==3.0.2
+numpy==2.4.4
+joblib==1.5.3

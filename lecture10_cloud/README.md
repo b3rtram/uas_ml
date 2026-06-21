@@ -29,6 +29,8 @@ itdone3) und bekommen eine **öffentliche HTTPS-URL**.
 | `chat_page.py`, `agent.py` | Chat-Agent (Ollama). **Nur lokal** sinnvoll, in der Cloud nicht aktiv. |
 | `models/adult_income_model.joblib` | Trainiertes Pipeline-Artefakt aus L08/L09. Wird **mit deployt** (liegt im Repo). |
 | `Procfile` | Sagt der PaaS, wie der `web`-Prozess startet (bindet an `$PORT`). |
+| `Dockerfile` | Alternative zum Buildpack: **explizites, reproduzierbares** Image. |
+| `.dockerignore` | Hält den Build-Kontext / das Image klein. |
 | `requirements.txt` | **Cloud**-Dependencies (Versionen gepinnt auf den Trainingsstand). |
 | `requirements-local.txt` | Extra `ollama` — nur für die lokale Chat-Seite. |
 | `.python-version` | Welche Python-Version der Buildpack nehmen soll. |
@@ -85,6 +87,28 @@ web: streamlit run app.py --server.port=$PORT --server.address=0.0.0.0 --server.
 > automatisieren (App anlegen, Service hinzufügen, Secrets setzen, deployen,
 > Logs holen). Für die Vorlesung machen wir sie bewusst **von Hand**, damit
 > klar wird, *was* dabei passiert.
+
+## Alternative: per Docker deployen
+
+Statt den Buildpack raten zu lassen, kann man die Umgebung mit einem
+**`Dockerfile`** explizit festlegen — gleiches Image lokal, in CI und in der
+Cloud. Viele PaaS deployen ein vorhandenes Dockerfile direkt.
+
+```bash
+# Image bauen
+docker build -t income-predictor lecture10_cloud
+
+# Lokal starten (Cloud-Verhalten: nur Formular, gebunden an Port 8080)
+docker run --rm -p 8080:8080 income-predictor
+# → http://localhost:8080
+
+# Anderen Port simulieren (wie eine PaaS via $PORT)
+docker run --rm -e PORT=9000 -p 9000:9000 income-predictor
+```
+
+`Procfile` (Buildpack) **oder** `Dockerfile` — beide tun dasselbe: die App an
+`$PORT` binden und headless starten. Du brauchst nur einen Weg; das Dockerfile
+ist der explizitere.
 
 ## Warum läuft der Chat-Agent nicht in der Cloud?
 

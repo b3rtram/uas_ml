@@ -1,0 +1,11 @@
+# Keep the build context (and image) small and clean.
+__pycache__/
+*.pyc
+*.pyo
+.DS_Store
+.venv/
+.git/
+.streamlit/secrets.toml
+
+# Local-only chat extras are not part of the cloud image.
+requirements-local.txt

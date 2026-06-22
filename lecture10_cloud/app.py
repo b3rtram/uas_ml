@@ -18,7 +18,7 @@ import os
 import streamlit as st
 
 st.set_page_config(
-    page_title="Income Predictor",
+    page_title="Income Preditor",
     page_icon="💼",
     layout="centered",
 )

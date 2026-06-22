@@ -1,0 +1,94 @@
+# CI/CD for Lecture 10 — test the app, then build & push a container image
+# to the GitHub Container Registry (GHCR). The PaaS then pulls that image.
+#
+# Flow:  push to main  ->  [test]  ->  [build-push -> ghcr.io]  ->  PaaS pulls
+name: Lecture 10 — build & push image
+
+on:
+  push:
+    branches: [main]
+    paths: ["lecture10_cloud/**", ".github/workflows/deploy-lecture10.yml"]
+  pull_request:
+    paths: ["lecture10_cloud/**", ".github/workflows/deploy-lecture10.yml"]
+  workflow_dispatch: {}   # allow manual runs from the Actions tab
+
+# Image name: ghcr.io/<owner>/income-predictor (owner is already lowercase).
+env:
+  IMAGE: ghcr.io/${{ github.repository_owner }}/income-predictor
+
+jobs:
+  # 1) Does the app actually work? Smoke-test the model and the web server.
+  test:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: lecture10_cloud
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install cloud dependencies
+        run: pip install -r requirements.txt
+
+      - name: Smoke-test the model service
+        run: |
+          python -c "
+          from model_service import predict_income
+          r = predict_income(age=45, occupation='Exec-managerial',
+                              **{'hours-per-week': 60, 'education-num': 14})
+          print('prediction:', r)
+          assert r['prediction'] in ('>50K', '<=50K')
+          "
+
+      - name: Boot the app (cloud mode) and check health
+        env:
+          ENABLE_CHAT: "0"
+        run: |
+          streamlit run app.py --server.port=8501 --server.address=0.0.0.0 \
+            --server.headless=true &
+          for i in $(seq 1 20); do
+            if curl -sf http://localhost:8501/_stcore/health >/dev/null; then
+              echo "health ok after ${i}s"; exit 0
+            fi
+            sleep 1
+          done
+          echo "app did not become healthy"; exit 1
+
+  # 2) Build the image and push it to GHCR (only on real pushes, not PRs).
+  build-push:
+    needs: test
+    runs-on: ubuntu-latest
+    if: github.event_name != 'pull_request'
+    permissions:
+      contents: read
+      packages: write      # required to push to GHCR
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Log in to GHCR
+        uses: docker/login-action@v3
+        with:
+          registry: ghcr.io
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Derive image tags (latest + commit SHA)
+        id: meta
+        uses: docker/metadata-action@v5
+        with:
+          images: ${{ env.IMAGE }}
+          tags: |
+            type=raw,value=latest
+            type=sha
+
+      - name: Build and push
+        uses: docker/build-push-action@v6
+        with:
+          context: lecture10_cloud
+          push: true
+          tags: ${{ steps.meta.outputs.tags }}
+          labels: ${{ steps.meta.outputs.labels }}

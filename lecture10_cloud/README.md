@@ -110,6 +110,36 @@ docker run --rm -e PORT=9000 -p 9000:9000 income-predictor
 `$PORT` binden und headless starten. Du brauchst nur einen Weg; das Dockerfile
 ist der explizitere.
 
+## CI/CD mit GitHub Actions
+
+Der Workflow liegt im Repo-Root unter
+[`.github/workflows/deploy-lecture10.yml`](../.github/workflows/deploy-lecture10.yml)
+(GitHub findet Workflows nur dort) und greift nur bei Änderungen an
+`lecture10_cloud/**`. Zwei Jobs:
+
+1. **`test`** — installiert die Cloud-Dependencies, ruft das Modell einmal auf
+   (`predict_income`) und startet die App headless, um den Health-Endpoint
+   `/_stcore/health` zu prüfen. Schlägt das fehl, wird nichts gebaut.
+2. **`build-push`** — baut das Docker-Image und pusht es in die **GitHub
+   Container Registry**: `ghcr.io/<owner>/income-predictor` (Tags `latest`
+   und `sha-<commit>`). Läuft nur bei echten Pushes, nicht bei Pull Requests.
+
+```
+push to main ─▶ test ─▶ build-push ─▶ ghcr.io/<owner>/income-predictor ─▶ PaaS zieht das Image
+```
+
+Die PaaS deployt dann nicht mehr aus dem Quellcode, sondern **zieht das fertige
+Image** aus GHCR. Damit das geht:
+
+- **Package öffentlich machen** (GitHub → Packages → *income-predictor* →
+  *Package settings* → Visibility *public*), **oder**
+- der PaaS Registry-Credentials hinterlegen (GHCR-Pull mit einem Token).
+
+> `secrets.GITHUB_TOKEN` reicht zum **Pushen** aus dem Workflow heraus — dafür
+> braucht es kein zusätzliches Secret, nur die `packages: write`-Permission
+> (steht im Workflow). Externe Secrets bräuchtest du erst, wenn der Workflow
+> selbst die PaaS-API anspräche.
+
 ## Warum läuft der Chat-Agent nicht in der Cloud?
 
 Der Agent aus L09 spricht mit einem **lokalen Ollama-Server**. Dieser:

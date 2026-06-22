@@ -140,6 +140,30 @@ Image** aus GHCR. Damit das geht:
 > (steht im Workflow). Externe Secrets bräuchtest du erst, wenn der Workflow
 > selbst die PaaS-API anspräche.
 
+## Deployen auf Hugging Face Spaces (zieht das GHCR-Image)
+
+Ein **Docker-Space** kann das in CI gebaute Image direkt aus GHCR ziehen. Die
+nötigen Dateien liegen in [`hfspace/`](hfspace/): ein einzeiliges Dockerfile
+(`FROM ghcr.io/b3rtram/income-predictor:latest`) und ein `README.md` mit dem
+Space-Frontmatter (`sdk: docker`, `app_port: 8080`).
+
+```bash
+# 1. GHCR-Package public stellen (sonst kann HF es nicht ziehen):
+#    GitHub → Packages → income-predictor → Package settings → Visibility: public
+
+# 2. Auf huggingface.co einen New Space anlegen → SDK: Docker → Blank.
+
+# 3. Space-Repo klonen und die Dateien aus hfspace/ hineinkopieren:
+git clone https://huggingface.co/spaces/<dein-user>/income-predictor hf-space
+cp lecture10_cloud/hfspace/Dockerfile lecture10_cloud/hfspace/README.md hf-space/
+cd hf-space
+git add . && git commit -m "Pull prebuilt image from GHCR" && git push
+```
+
+HF baut daraufhin den (einzeiligen) Docker-Build, zieht das fertige Image und
+startet es auf `app_port: 8080`. `ENABLE_CHAT=0` ist im Image schon Default →
+es läuft nur das Formular.
+
 ## Warum läuft der Chat-Agent nicht in der Cloud?
 
 Der Agent aus L09 spricht mit einem **lokalen Ollama-Server**. Dieser:

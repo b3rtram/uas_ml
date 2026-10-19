@@ -12,7 +12,7 @@ pinned: false
 
 Docker-Space, der das in GitHub Actions gebaute Image aus der GitHub Container
 Registry zieht (`ghcr.io/b3rtram/income-predictor`). Quellcode und Lehrmaterial:
-[uas_ml / lecture10_cloud](https://github.com/b3rtram/uas_ml/tree/main/lecture10_cloud).
+[uas_ml / sommersemester_2026/lecture10_cloud](https://github.com/b3rtram/uas_ml/tree/main/sommersemester_2026/lecture10_cloud).
 
 Gezeigt wird nur die **Formular-Seite** (`ENABLE_CHAT=0`) — der lokale
 Ollama-Chat aus Lecture 09 läuft auf einer GPU-losen Cloud-Instanz nicht.

@@ -7,9 +7,9 @@ name: Lecture 10 — build & push image
 on:
   push:
     branches: [main]
-    paths: ["lecture10_cloud/**", ".github/workflows/deploy-lecture10.yml"]
+    paths: ["sommersemester_2026/lecture10_cloud/**", ".github/workflows/deploy-lecture10.yml"]
   pull_request:
-    paths: ["lecture10_cloud/**", ".github/workflows/deploy-lecture10.yml"]
+    paths: ["sommersemester_2026/lecture10_cloud/**", ".github/workflows/deploy-lecture10.yml"]
   workflow_dispatch: {}   # allow manual runs from the Actions tab
 
 # Image name: ghcr.io/<owner>/income-predictor (owner is already lowercase).
@@ -22,7 +22,7 @@ jobs:
     runs-on: ubuntu-latest
     defaults:
       run:
-        working-directory: lecture10_cloud
+        working-directory: sommersemester_2026/lecture10_cloud
     steps:
       - uses: actions/checkout@v4
 
@@ -88,7 +88,7 @@ jobs:
       - name: Build and push
         uses: docker/build-push-action@v6
         with:
-          context: lecture10_cloud
+          context: sommersemester_2026/lecture10_cloud
           push: true
           tags: ${{ steps.meta.outputs.tags }}
           labels: ${{ steps.meta.outputs.labels }}

@@ -75,7 +75,7 @@ web: streamlit run app.py --server.port=$PORT --server.address=0.0.0.0 --server.
 ### 3. Schritte
 
 1. **App anlegen** und mit dem Git-Repo verknüpfen (URL deines Repos).
-2. **Service** hinzufügen, der auf den Pfad `lecture10_cloud/` zeigt
+2. **Service** hinzufügen, der auf den Pfad `sommersemester_2026/lecture10_cloud/` zeigt
    (Buildpack erkennt Python automatisch).
 3. **Secret/ENV setzen:** `ENABLE_CHAT=0` (sonst versucht die App, die
    Chat-Seite anzubieten, die ohne Ollama nicht funktioniert).
@@ -96,7 +96,7 @@ Cloud. Viele PaaS deployen ein vorhandenes Dockerfile direkt.
 
 ```bash
 # Image bauen
-docker build -t income-predictor lecture10_cloud
+docker build -t income-predictor sommersemester_2026/lecture10_cloud
 
 # Lokal starten (Cloud-Verhalten: nur Formular, gebunden an Port 8080)
 docker run --rm -p 8080:8080 income-predictor
@@ -115,7 +115,7 @@ ist der explizitere.
 Der Workflow liegt im Repo-Root unter
 [`.github/workflows/deploy-lecture10.yml`](../.github/workflows/deploy-lecture10.yml)
 (GitHub findet Workflows nur dort) und greift nur bei Änderungen an
-`lecture10_cloud/**`. Zwei Jobs:
+`sommersemester_2026/lecture10_cloud/**`. Zwei Jobs:
 
 1. **`test`** — installiert die Cloud-Dependencies, ruft das Modell einmal auf
    (`predict_income`) und startet die App headless, um den Health-Endpoint
@@ -155,7 +155,7 @@ Space-Frontmatter (`sdk: docker`, `app_port: 8080`).
 
 # 3. Space-Repo klonen und die Dateien aus hfspace/ hineinkopieren:
 git clone https://huggingface.co/spaces/<dein-user>/income-predictor hf-space
-cp lecture10_cloud/hfspace/Dockerfile lecture10_cloud/hfspace/README.md hf-space/
+cp sommersemester_2026/lecture10_cloud/hfspace/Dockerfile sommersemester_2026/lecture10_cloud/hfspace/README.md hf-space/
 cd hf-space
 git add . && git commit -m "Pull prebuilt image from GHCR" && git push
 ```

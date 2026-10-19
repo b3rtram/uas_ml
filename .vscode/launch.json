@@ -8,7 +8,7 @@
       "python": "${workspaceFolder}/.venv/bin/python",
       "module": "streamlit",
       "args": ["run", "app.py"],
-      "cwd": "${workspaceFolder}/lecture09_deployment",
+      "cwd": "${workspaceFolder}/sommersemester_2026/lecture09_deployment",
       "console": "integratedTerminal",
       "justMyCode": true
     },
@@ -17,8 +17,8 @@
       "type": "debugpy",
       "request": "launch",
       "python": "${workspaceFolder}/.venv/bin/python",
-      "program": "${workspaceFolder}/lecture09_deployment/discord_bot.py",
-      "cwd": "${workspaceFolder}/lecture09_deployment",
+      "program": "${workspaceFolder}/sommersemester_2026/lecture09_deployment/discord_bot.py",
+      "cwd": "${workspaceFolder}/sommersemester_2026/lecture09_deployment",
       "console": "integratedTerminal"
     }
   ]

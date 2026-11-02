@@ -1,0 +1,17 @@
+{
+  "model_file": "mpg_model.joblib",
+  "trained_at": "2026-11-01 16:49",
+  "sklearn_version": "1.8.0",
+  "features": [
+    "cylinders",
+    "displacement",
+    "horsepower",
+    "weight",
+    "acceleration",
+    "model_year",
+    "origin"
+  ],
+  "target": "mpg",
+  "train_rows": 318,
+  "test_mae": 1.599
+}

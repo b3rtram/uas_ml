@@ -9,7 +9,7 @@ import numpy as np
 import pandas as pd
 
 FRACTION = 0.10
-ALWAYS = ["AAPL", "NVDA", "TSLA", "BAYN.DE", "7203.T", "0700.HK", "NESN.SW", "MMEX"]   # used in the notebook
+ALWAYS = ["AAPL", "MSFT", "AMZN", "GOOGL", "INTC", "NVDA", "TSLA", "BAYN.DE", "7203.T", "0700.HK", "NESN.SW", "MMEX"]   # used in the notebooks
 
 prices = pd.read_parquet("data/prices.parquet")
 symbols = prices["symbol"].cat.categories.to_numpy()

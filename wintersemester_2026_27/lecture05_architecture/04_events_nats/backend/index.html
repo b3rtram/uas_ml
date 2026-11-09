@@ -1,0 +1,112 @@
+<!doctype html>
+<!-- PRESENTATION LAYER, browser part. Event version: POST answers 202 at once, then the page polls until the prediction is there. -->
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Stock App</title>
+  <style>
+    body { font-family: system-ui, sans-serif; background: #F2EFE7; color: #16181D; margin: 0; padding: 32px 16px; }
+    main { max-width: 760px; margin: 0 auto; }
+    h1 { margin: 0 0 4px; }
+    .sub { color: #4D4E50; margin: 0 0 24px; }
+    form { display: flex; gap: 8px; margin-bottom: 24px; }
+    input { font-size: 18px; padding: 8px 12px; width: 140px; text-transform: uppercase; border: 1px solid #C8C7C4; border-radius: 6px; }
+    button { font-size: 18px; padding: 8px 20px; background: #C2410C; color: white; border: 0; border-radius: 6px; cursor: pointer; }
+    .card { background: #FBFAF6; border: 1px solid #DCDAD3; border-radius: 10px; padding: 20px; margin-bottom: 16px; }
+    .big { font-size: 40px; font-weight: 700; }
+    .up { color: #2F855A; } .down { color: #C2410C; } .error { color: #C2410C; font-weight: 600; }
+    table { border-collapse: collapse; width: 100%; } td, th { text-align: left; padding: 4px 8px; border-bottom: 1px solid #DCDAD3; }
+    pre { max-height: 260px; background: #16181D; color: #F2EFE7; padding: 12px; border-radius: 8px; overflow-x: auto; font-size: 13px; }
+  </style>
+</head>
+<body>
+<main>
+  <h1>Stock App</h1>
+  <p class="sub">Predicts tomorrow's closing price with the random forest from Session 4.</p>
+
+  <form id="form">
+    <input id="symbol" value="AAPL" aria-label="Symbol">
+    <button>Predict</button>
+  </form>
+
+  <div class="card" id="result">Enter a symbol and press Predict.</div>
+  <div class="card"><svg id="chart" viewBox="0 0 700 205" width="100%" role="img" aria-label="last prices"></svg></div>
+  <div class="card"><b>Saved predictions</b> (from the database)<table id="history"></table></div>
+  <div class="card"><b>What came over the wire</b> (the raw REST response)<pre id="raw">-</pre></div>
+</main>
+
+<script>
+const $ = (id) => document.getElementById(id);
+
+// 1 · the user clicks "Predict" -> one REST call to our backend
+$("form").addEventListener("submit", async (event) => {
+  event.preventDefault();                                   // don't reload the page
+  const symbol = $("symbol").value.trim().toUpperCase();
+  $("result").textContent = "Asking the backend ...";
+
+  const response = await fetch(`/api/predict/${symbol}`, { method: "POST" });
+  const body = await response.json();
+  $("raw").textContent = `POST /api/predict/${symbol}  ->  ${response.status}\n\n` + JSON.stringify(body, null, 2);
+
+  if (!response.ok) {                                       // 404 unknown symbol, 503 service down, ...
+    $("result").innerHTML = '<span class="error"></span>';
+    $("result").firstChild.textContent = `${response.status}: ${body.detail}`;   // textContent: user input is never run as HTML
+    return;
+  }
+  // 202 Accepted: the backend has published an event; the prediction comes later
+  drawChart(body.last_prices, null);
+  const started = Date.now();
+  while (true) {
+    const rows = await (await fetch(`/api/predictions/${symbol}`)).json();
+    const done = rows.find((r) => r.as_of === body.as_of && r.created_at >= body.queued_at);
+    if (done) break;
+    const waited = ((Date.now() - started) / 1000).toFixed(0);
+    $("result").textContent = `Queued. Waiting for the ML service ... ${waited} s (the event is stored in NATS)`;
+    await new Promise((resolve) => setTimeout(resolve, 500));       // ask again in 0.5 s (polling)
+  }
+  const prediction = (await (await fetch(`/api/predictions/${symbol}`)).json())[0];
+  showResult(prediction);
+  drawChart(body.last_prices, prediction.close_next);
+  loadHistory(symbol);
+});
+
+// 2 · show the prediction
+function showResult(p) {
+  const cls = p.return_pct >= 0 ? "up" : "down";
+  $("result").innerHTML = `
+    <div>${p.symbol} closed at <b>${p.close.toFixed(2)} $</b> on ${p.as_of}. Tomorrow:</div>
+    <div class="big ${cls}">${p.close_next.toFixed(2)} $ (${p.return_pct > 0 ? "+" : ""}${p.return_pct.toFixed(2)} %)</div>`;
+}
+
+// 3 · a tiny line chart: last 10 prices (black) + prediction (red)
+function drawChart(prices, next) {
+  const values = [...prices.map((p) => p.close), ...(next === null ? [] : [next])];
+  const min = Math.min(...values), max = Math.max(...values);
+  const x = (i) => 40 + i * (620 / prices.length);              // one slot more for "tomorrow"
+  const y = (v) => 180 - ((v - min) / (max - min || 1)) * 160;
+  const line = prices.map((p, i) => `${x(i)},${y(p.close)}`).join(" ");
+  const last = prices.length - 1;
+  $("chart").innerHTML = `
+    <polyline points="${line}" fill="none" stroke="#16181D" stroke-width="2"/>
+    ${next === null ? "" : `<line x1="${x(last)}" y1="${y(prices[last].close)}" x2="${x(last + 1)}" y2="${y(next)}" stroke="#C2410C" stroke-width="2" stroke-dasharray="6 4"/>
+    <circle cx="${x(last + 1)}" cy="${y(next)}" r="5" fill="#C2410C"/>`}
+    <text x="36" y="${y(max) + 4}" font-size="12" fill="#4D4E50" text-anchor="end">${max.toFixed(0)}</text>
+    <text x="36" y="${y(min) + 4}" font-size="12" fill="#4D4E50" text-anchor="end">${min.toFixed(0)}</text>
+    <text x="40" y="196" font-size="12" fill="#4D4E50">${prices[0].date}</text>
+    <text x="660" y="196" font-size="12" fill="#C2410C" text-anchor="end">tomorrow</text>`;
+}
+
+// 4 · a second REST call: GET the saved predictions
+async function loadHistory(symbol) {
+  const rows = await (await fetch(`/api/predictions/${symbol}`)).json();
+  $("history").innerHTML = "<tr><th>as of</th><th>close</th><th>predicted</th><th>return</th></tr>" +
+    rows.map((r) => `<tr><td>${r.as_of}</td><td>${r.close.toFixed(2)}</td><td>${r.close_next.toFixed(2)}</td><td>${r.return_pct.toFixed(2)} %</td></tr>`).join("");
+}
+
+// open http://127.0.0.1:8000/?symbol=MSFT to predict right away
+const start = new URLSearchParams(location.search).get("symbol");
+if (start) { $("symbol").value = start; $("form").requestSubmit(); }
+</script>
+</body>
+</html>

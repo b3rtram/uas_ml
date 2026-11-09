@@ -1,0 +1,6 @@
+# generated when the notebooks run
+*.db
+*.db-wal
+*.db-shm
+worker.log
+models/

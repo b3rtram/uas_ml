@@ -1,0 +1,11 @@
+:root { font-family: system-ui, sans-serif; color: #16181d; background: #f2efe7; }
+main { max-width: 760px; margin: 0 auto; padding: 24px 16px; }
+section { background: white; border-radius: 8px; padding: 4px 16px 16px; margin: 16px 0; }
+h2 { font-size: 1.1rem; color: #c2410c; }
+button, select { font: inherit; padding: 4px 12px; }
+.note { color: #666; font-size: 0.9rem; }
+.error { color: #b91c1c; }
+.chart { width: 100%; color: #1d5fd6; margin: 12px 0; }
+.chart text { font-size: 11px; fill: #666; }
+table { border-collapse: collapse; }
+td, th { padding: 2px 12px; text-align: right; border-bottom: 1px solid #ddd; }
